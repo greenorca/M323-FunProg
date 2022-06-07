@@ -1,15 +1,18 @@
-# Intro
+# Bivo21 Struktur
 
-Hier ist ein naiver Versuch einer stabile und arbeitsteilige Entwicklungsumgebung für die Sidequests und Mainquests eines BiVo2021-Moduls.
+## Allgemein
 
-Alle SQs werden im Markdown-Format entwickelt. Für die effiziente Bearbeitung bietet sich beispielsweise der Atom-Editor mit *Markdown Preview Plus* und *atom-image-paste* Packages an.
+Dieses Repository soll als Template für die Struktur eines BiVo21 Moduls dienen.  
+Hierbei wird grösstenteils im **sidequests** Ordner gearbeitet wobei jeder entwickler seine Sidequest Ordner nach bedarf erstellt.
 
-# Neue SideQuests
+## Arbeiten mit Git
 
-... sollten auf der sq-template.md - Vorlage basieren
+Grundsätzlich arbeiten alle Entwickler auf dem **main**-branch. Da in jeweils eigenen Ordnern gearbeitet wird sollte dies nicht zu Überlappungen führen.
 
-# PDF - Exports
+### Future
 
-Von den erstellten SQs können per rechtem Mausklick in der Vorauschau mit dem Chrome-Puppet Package ansehnliche PDFs erzeugt werden.
+Potenziell könnte in der Zukunft für den Unterricht jeweils ein FORK des Repositories gemacht werden, wobei die durchführende Lehrperson etwaige Anpassungen nach Ende des Moduls via Pull Request ins Repository zurückführen kann.
 
-<img alt="README-3772fa06.png" src="img/README-3772fa06.png" width="" height="" >
+## Review-Prozess
+
+Im Laufe eines Reviews werden Anpassungsempfehlungen via Issues ausgestellt und den jeweiligen Entwicklern zugeteilt. So wird gewährleistet, dass Zielgenau Feedback verarbeitet werden kann und der Zeitpunkt des Abschlusses ist klar ersichtlich. Das Zauberwort lautet Transparenz.
