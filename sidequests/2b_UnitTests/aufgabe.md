@@ -1,14 +1,20 @@
-# SQ1A - Titel
+# SQ2B - Unit Tests
+
+## Notes
+
+Vorhergehende Aufgaben mittels UnitTests testen
 
 ## Zeit
 
-* 45 Minuten
+* 90 Minuten
 
 ## Lernart bzw. Sozialform
 
 * Partnerarbeit
 
 ## HANOKs
+
+1.1, 1.3, 1.4, 2.2, 3.2, 4,1, 4.2, 4.3
 
 ## Einführung LP in das Basiswissen
 

@@ -1,14 +1,20 @@
-# SQ1A - Titel
+# SQ3C - JDBC
+
+## Notes
+
+UnitTests (IntegrationsTests)
 
 ## Zeit
 
-* 45 Minuten
+* 30 Minuten
 
 ## Lernart bzw. Sozialform
 
 * Partnerarbeit
 
 ## HANOKs
+
+1.1, 1.3, 1.4, 2.2, 3.2, 4,1, 4.2, 4.3
 
 ## Einführung LP in das Basiswissen
 

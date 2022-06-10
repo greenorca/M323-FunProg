@@ -1,8 +1,12 @@
-# SQ1A - Titel
+# SQ3A - JDBC
+
+## Notes
+
+Datenbank abfragen
 
 ## Zeit
 
-* 45 Minuten
+* 60 Minuten
 
 ## Lernart bzw. Sozialform
 
