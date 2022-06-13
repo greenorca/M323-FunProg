@@ -4,8 +4,10 @@ Studiert die angegebenen Quellen zum Thema **pure function** und beantwortet die
 
 ## Quellen
 
-* Praehofer, Funprog, Kap. 3.1
+* Praehofer, Funprog, Kap. 3.1 (nur Einleitung, Rekursion ist Zusatz))
 
 ## Fragen
 
-Was versteht man unter *Reinen Funktionen*?
+Was versteht man unter *Reinen Funktionen*? <!-- verändern die Eingabeparameter nicht, Zustand aller anderen Variablen belibt gleich, keine Seiteneffekte, nur Rückgabe-Werte -->
+
+<!-- Geschätzter Zeitaufwand: 15 Minuten -->
