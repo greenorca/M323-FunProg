@@ -6,10 +6,15 @@ package m323.sidequest3a;
  */
 public class App 
 {
-	DBHelper dbhelper = new DBHelper();
+	private static DBHelper dbhelper = new DBHelper();
 	
     public static void main( String[] args )
     {
+    	System.out.println("App: Start");
+    	
         // TODO: hier kommt Applikationslogik hin
+    	dbhelper.connectionTest();
+    	
+    	System.out.println("App: Ende");
     }
 }
