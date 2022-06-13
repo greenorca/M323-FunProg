@@ -16,7 +16,6 @@
 
 * Was ist JDBC?
 * Wie verwendet man JDBC?
-* SQLite als mini DBMS
 
 ## Ausgangslage
 
@@ -34,8 +33,7 @@ ERD der Datenbank m232_sq3a:
 
 ## Auftrag
 
-1. Folge dem Link [Anleitung SQLite installieren](https://www.tutorialspoint.com/sqlite/sqlite_installation.htm) und installiere das SQLite Datenbanksystem
-1. Erstelle eine Datenbank **m323_sq3a** gemäss der [Anleitung](https://www.tutorialspoint.com/sqlite/sqlite_create_database.htm) und teste ob die Verbindung darauf klappt
+1. Erstelle eine Datenbank **m323_sq3a** und teste ob die Verbindung darauf klappt
 1. Importiere das Projekt **sidequest3a** des Unterrichtsmittels in deine IDE, das grundlegende Setup ist bereits gemacht
     * In der Klasse **Programm** läuft das Programm, hier fügst du generellen Code ein
     * In der Klasse **DBHelper** sind bereits Methodenrümpfe vorbereitet, hier fügst du datenbankspezifischen Code hinzu (Kommentare beachten)
