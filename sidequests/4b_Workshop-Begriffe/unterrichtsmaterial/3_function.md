@@ -4,13 +4,35 @@ Studiert die angegebenen Quellen zum Thema **Function** und beantwortet die folg
 
 ## Quellen
 
-* https://www.javatpoint.com/java-closure
-* Buch Kapitel 2.3.4 geht auch, ist aber biz komplizierter
+* https://docs.oracle.com/javase/8/docs/api/java/util/function/Function.html
+* https://www.geeksforgeeks.org/function-interface-in-java-with-examples/
+* Praehofer, Funprog, Kap. 2.4 (sehr detailiert)
 
 ## Fragen
 
-* Was versteht man unter Closures? <!-- is a function (or method) that refers to free variables in their lexical context. A free variable is an identifier used but not defined by the closure. It can be used without being a method or a class. It means that closure can access variables that are not defined in the parameter list and also assigned to a variable. We can also parse the closure as a parameter.
-In other words, a lambda expression becomes a closure when it is able to access the variables that are outside of this scope. It means a lambda can access its outer scope. -->
-* Was muss man beim Erstellen von variablen innerhalb vom Lambda-Ausdrücken beachten? <!-- final -->
+* Wie funktioniert das *Function*-Interface? <!-- man muss die apply-Funktion implementieren -->
+* Wie kann man ein *Function*-Objekt als Variable ablegen?
+* Wie implementiert man das Function-Interface?
+* Wie kann man mehrere solcher Funktionen verketten (also hintereinander ausführen)?
 
-<!-- Geschätzter Zeitaufwand: mind. 20 Minuten -->
+<!-- Lösungsvorschlag
+  Function<Double, Double> square = new Function<Double, Double>() {
+			@Override
+			public Double apply(Double n) {
+				return n * n;
+			}			
+		};
+
+		Function<Double, Double> half = (t) -> t/2.0;
+
+		square = square.andThen(half).andThen(half);
+		half = half.andThen(square);
+
+		for (Double x = 0.0; x <  10; x++) {
+			double r1 = square.apply(x);
+			double r2 = half.apply(x);
+			System.out.println(x+":\t" + r1 + "\t" +  r2);
+		}
+-->
+
+<!-- Zeitaufwand: sehr hoch, Schwierigkeit ebenfalls nicht zu unterschätzen -->
