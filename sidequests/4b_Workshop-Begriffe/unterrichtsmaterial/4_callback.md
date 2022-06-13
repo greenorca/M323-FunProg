@@ -4,4 +4,7 @@ Studiert die angegebenen Quellen zum Thema **callback** und beantwortet die folg
 
 ## Quellen
 
+* Buch Kap. 10 (OMG, Callbacks in Streams...)
+* https://matthisk.com/asynchronous-streams-and-callbacks/
+
 ## Fragen
