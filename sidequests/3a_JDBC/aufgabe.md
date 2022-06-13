@@ -38,17 +38,17 @@ ERD der Datenbank m232_sq3a:
 
 ## Auftrag
 
-1. Folge dem Link [Anleitung SQLite installieren](TODO_ADD_LINK) und installiere das SQLite Datenbanksystem
-1. Erstelle eine Datenbank **m323_sq3a** und gemäss obiger Anleitung ob die Verbindung darauf klappt
-1. Importiere das angehängte Projekt in deine IDE, das grundlegende Setup ist bereits gemacht
+1. Folge dem Link [Anleitung SQLite installieren](https://www.tutorialspoint.com/sqlite/sqlite_installation.htm) und installiere das SQLite Datenbanksystem
+1. Erstelle eine Datenbank **m323_sq3a** gemäss der [Anleitung](https://www.tutorialspoint.com/sqlite/sqlite_create_database.htm) und teste ob die Verbindung darauf klappt
+1. Importiere das Projekt **sidequest3a** des Unterrichtsmittels in deine IDE, das grundlegende Setup ist bereits gemacht
     * In der Klasse **Programm** läuft das Programm, hier fügst du generellen Code ein
     * In der Klasse **DBHelper** sind bereits Methodenrümpfe vorbereitet, hier fügst du datenbankspezifischen Code hinzu (Kommentare beachten)
 1. Konfiguriere das Projekt so, dass du damit einen Verbindugnstest mit der Datenbank durchführen kannst
     * Frage die Lehrperson, falls es Probleme gibt
 1. Erstelle in der Datenbank eine Tabelle **spiel** mit den in der Ausgangslage beschriebenen Spalten
 1. Implementiere im Projekt eine Modell-Klasse **Spiel** mit den Feldern, welche in der Datenbank vorkommen
-1. Implementiere im Programm den Code um alle Spiele aus der Datenbank auszulesen und gib diese in der Konsole aus
-1. Implementiere im Programm den Code um der Datenbank 3 weitere Spiele hinzuzufügen
+1. Implementiere im **Programm** den Code um alle Spiele aus der Datenbank auszulesen und gib diese in der Konsole aus
+1. Implementiere im **Programm** den Code um der Datenbank 3 weitere Spiele hinzuzufügen
 1. Teste ob die Spiele in der Datenbank angekommen sind entweder mit der Ausgabe in der Konsole (Read der Datenbank) oder im entsprechenden DB-Verwaltungstool
 
 ## Wissens-Check
