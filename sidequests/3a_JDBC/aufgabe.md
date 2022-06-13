@@ -41,7 +41,9 @@ ERD der Datenbank m232_sq3a:
 1. Folge dem Link [Anleitung SQLite installieren](TODO_ADD_LINK) und installiere das SQLite Datenbanksystem
 1. Erstelle eine Datenbank **m323_sq3a** und gemäss obiger Anleitung ob die Verbindung darauf klappt
 1. Importiere das angehängte Projekt in deine IDE, das grundlegende Setup ist bereits gemacht
-1. Konfiguriere das Projekt so um, dass du damit einen Verbindugnstest zur Datenbank durchführen kannst
+    * In der Klasse **Programm** läuft das Programm, hier fügst du generellen Code ein
+    * In der Klasse **DBHelper** sind bereits Methodenrümpfe vorbereitet, hier fügst du datenbankspezifischen Code hinzu (Kommentare beachten)
+1. Konfiguriere das Projekt so, dass du damit einen Verbindugnstest mit der Datenbank durchführen kannst
     * Frage die Lehrperson, falls es Probleme gibt
 1. Erstelle in der Datenbank eine Tabelle **spiel** mit den in der Ausgangslage beschriebenen Spalten
 1. Implementiere im Projekt eine Modell-Klasse **Spiel** mit den Feldern, welche in der Datenbank vorkommen
@@ -52,4 +54,4 @@ ERD der Datenbank m232_sq3a:
 ## Wissens-Check
 
 * Welche Abfolge Durchläuft der Prozess um Daten zu laden bei der Verwendung von JDBC? <!-- 2 -->
-* Weshalb sollten Datenbankverbindung nach beendigter Arbeit stets geschlossen werden?
+* Weshalb sollten Datenbankverbindung nach beendigter Arbeit stets geschlossen werden? <!-- Es können nur eine bestimmte Anzahl vor Verbindungen gleichzeitig offen sein. Ist dieses Limit erreicht können keine neuen Verbindungen geöffnet werden und Anfragen werden fehlschlagen. -->
