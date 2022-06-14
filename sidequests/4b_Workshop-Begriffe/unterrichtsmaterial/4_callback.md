@@ -8,3 +8,5 @@ Studiert die angegebenen Quellen zum Thema **callback** und beantwortet die folg
 * https://matthisk.com/asynchronous-streams-and-callbacks/
 
 ## Fragen
+
+**TODO:** elaborate topic or replace by `Optional<T>`

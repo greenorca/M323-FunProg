@@ -1,4 +1,4 @@
-# SQxyz - Titel
+# SQ4a - Parallele Verarbeitungsmöglichkeiten
 
 ## Zeit
 
@@ -7,12 +7,6 @@
 ## Lernart bzw. Sozialform
 
 * Partnerarbeit
-
-<!--
-  ## Notizen
-
-  * sinnvoller Aufhänger nach einfachem Beispiel: GROUP BY nachbauen
--->
 
 ## HANOKs
 
