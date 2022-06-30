@@ -17,11 +17,15 @@
 * Was ist JDBC?
 * Wie verwendet man JDBC?
 
+## Literatur zum Thema
+
+1. Praehofer "Funktionale Programmierung" Kapitel
+
 ## Ausgangslage
 
 Du bringst bereits Erfahrungen im Umgang mit Datenbanken und grundlegende JAVA-Kenntnisse mit. Dies wollen wir uns nun zu Nutze machen um Datensätze aus einer Applikation permanentn abzuspeichern und weiter zu verarbeiten.  
 Die EDUGames AG möchte die grundlegenden Information von Spielen applikatorisch in einer Datenbank ablegen und daraus auch auslesen können. Hierfür legen wir eine kleine Datenbank samt einer Tabelle Game an und greifen darauf aus einer Konsolenapplikation zu.  
-  
+
 ERD der Datenbank m232_sq3a:  
 ![ERD](images/erd.jpg)
 

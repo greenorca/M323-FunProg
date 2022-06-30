@@ -48,7 +48,7 @@
 
 
 
-### Weitere Literatur zum Thema
+## Literatur zum Thema
 
 * Praehofer, Funprog, Kap. 8.1
 * [Javadoc IntStream](https://docs.oracle.com/en/java/javase/17/docs/api/java.base/java/util/stream/IntStream.html)

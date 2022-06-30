@@ -20,7 +20,7 @@
 
 Bislang wurden viele praktische Anwendungsbegiete der funktionalen Programmierung aufgezeigt. Die Lernenden sollen in diesem SQ dein Grundverständnis für die dazugehörigen Fachbegriffe erarbeiten.
 
-### Weitere Literatur zum Thema
+## Literatur zum Thema
 
 * siehe Teilaufgaben in den Kursamterialien
 
