@@ -30,14 +30,14 @@ Das Verständnis der grundlegenen Fachbegriffe ist essentiell wichtig für die Z
 
 ## Ziel
 
-Du erarbeitest mit deinen Kollegen eine Übersicht über einige Begriffe aus dem funktionalen Programmieren: Pure-Function, Immutable Data, Function, Callback, Functor, Closure. 
+Du erarbeitest mit deinen Kollegen eine Übersicht über einige Begriffe aus dem funktionalen Programmieren: Pure-Function, Immutable Data, Function, Optional, Functor und Closure. 
 
 ## Auftrag
 
-Die Klase wird in 6 Kleingruppen aufgeteilt. Jede Kleingruppe erarbeitet eines der oben genannten Themen und präsentiert die Erkenntnisse der Klasse.
+Die Klasse wird in 6 Kleingruppen aufgeteilt. Jede Kleingruppe erarbeitet eines der oben genannten Themen und präsentiert die Erkenntnisse der Klasse.
 
 Konkrete Aufgabenstellungen und Anleitungen stehen in den Kursmaterialien für jedes Thema bereit.
 
 ## Wissens-Check
 
-* **TODO:** Einfügen Fragen auf Teilaufgaben
+* siehe Fragen in den Teilaufgaben
