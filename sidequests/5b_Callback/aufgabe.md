@@ -129,6 +129,8 @@ Du lernst, mit asynchronen Funktionen zu arbeiten und Callbacks zu erstellen.
 
 Dieses Codebeispiel ist eine stark vereinfachte Version zur Demonstration asynchroner Prozesse mit Callbacks. Im richtigen Programmierer-Alltag findest Du statt der `Tread.sleep` oft REST-API-Aufrufe, und statt der Konsolenausgaben wirst Du wohl eher Daten in die GUI schreiben.
 
+Übrigens - das bei GUI-Frameworks oft genutzte Observer-Entwurfsmuster basiert auf dem Callback-Prinzip.
+
 ## Wissens-Check
 
 * Wozu dienen Callbacks?
