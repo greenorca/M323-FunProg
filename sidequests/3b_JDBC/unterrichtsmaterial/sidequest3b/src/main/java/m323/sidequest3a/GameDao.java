@@ -13,7 +13,7 @@ import java.util.ArrayList;
  * 
  * @author Patrick Meier
  */
-public class DBHelper {
+public class GameDao {
 	// JDBC driver name and database URL
 	final String JDBC_DRIVER = "com.mysql.cj.jdbc.Driver";
 	final String DB_URL = "jdbc:mysql://localhost/m323_sq3b";
