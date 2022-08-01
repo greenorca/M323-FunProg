@@ -8,6 +8,14 @@ Studiert die angegebenen Quellen zum Thema **pure function** und beantwortet die
 
 ## Fragen
 
-Was versteht man unter *Reinen Funktionen*? <!-- verändern die Eingabeparameter nicht, Zustand aller anderen Variablen belibt gleich, keine Seiteneffekte, nur Rückgabe-Werte -->
+1. Was versteht man unter *Reinen Funktionen*? <!-- verändern die Eingabeparameter nicht, Zustand aller anderen Variablen bleibt gleich, keine Seiteneffekte, nur Rückgabe-Werte -->
+1. Beurteile ob die folgenden Funktionen *reine Funktionen* sind und begründe die Antwort:
+<table rows='1'>
+<tr><th>Funktion bzw. Methode</th><th>pure (ja/nein)</th><th>URL</th></tr>
+<tr><td>Replace-Funktion der String-Klasse</td><td></td><td>https://docs.oracle.com/en/java/javase/17/docs/api/java.base/java/lang/String.html#replace(char,char)</td></tr>
+<tr><td>Remove-Methode des List-Interface</td><td></td><td>https://docs.oracle.com/en/java/javase/17/docs/api/java.base/java/util/List.html#remove(java.lang.Object)</td></tr>
+<tr><td>Sort-Methode des List-Interfaces</td><td></td><td>https://docs.oracle.com/en/java/javase/17/docs/api/java.base/java/util/List.html#sort(java.util.Comparator)</td></tr>
+</table>
+1. Welche Funktionen der Streaming-API sind *reine Funktionen*?
 
 <!-- Geschätzter Zeitaufwand: 15 Minuten -->

@@ -1,4 +1,4 @@
-# SQxyz - Titel
+# SQ4a - Parallele Verarbeitungsmöglichkeiten
 
 ## Zeit
 
@@ -7,12 +7,6 @@
 ## Lernart bzw. Sozialform
 
 * Partnerarbeit
-
-<!--
-  ## Notizen
-
-  * sinnvoller Aufhänger nach einfachem Beispiel: GROUP BY nachbauen
--->
 
 ## HANOKs
 
@@ -54,7 +48,7 @@
 
 
 
-### Weitere Literatur zum Thema
+## Literatur zum Thema
 
 * Praehofer, Funprog, Kap. 8.1
 * [Javadoc IntStream](https://docs.oracle.com/en/java/javase/17/docs/api/java.base/java/util/stream/IntStream.html)

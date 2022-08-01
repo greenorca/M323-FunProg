@@ -18,9 +18,9 @@ UnitTests (IntegrationsTests)
 
 ## Einführung LP in das Basiswissen
 
-### Weitere Literatur zum Thema
+## Literatur zum Thema
 
-1. BMU-Docker für Einsteiger:
+1. Praehofer "Funktionale Programmierung" Kapitel
 
 ## Ausgangslage
 
