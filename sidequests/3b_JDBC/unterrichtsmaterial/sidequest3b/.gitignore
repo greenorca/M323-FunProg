@@ -1,0 +1,2 @@
+# Target-Ordner wird von Maven erzeugt und muss nicht eingecheckt sein
+/target
