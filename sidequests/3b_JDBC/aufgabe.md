@@ -1,4 +1,4 @@
-# SQ3B - JDBC
+# SQ3B - Datenbankdaten funktional Auswerten
 
 ## Zeit
 
