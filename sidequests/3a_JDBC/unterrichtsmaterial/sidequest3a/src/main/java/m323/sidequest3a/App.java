@@ -1,8 +1,8 @@
 package m323.sidequest3a;
 
 /**
- * Hello world!
- *
+ * Ausführender Programmcode
+ *  @author Patrick Meier
  */
 public class App 
 {

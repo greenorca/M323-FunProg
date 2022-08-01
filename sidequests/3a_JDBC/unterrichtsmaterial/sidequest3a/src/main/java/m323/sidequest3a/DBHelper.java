@@ -4,7 +4,7 @@ import java.util.ArrayList;
 
 /**
  * Diese Klasse kapselt die Logik welche für Datenbankzugriffe verwendet wird
- * @author MSE
+ * @author Patrick Meier
  */
 public class DBHelper {
 	/**
