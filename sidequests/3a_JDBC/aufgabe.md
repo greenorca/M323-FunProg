@@ -3,14 +3,25 @@
 ## Zeit
 
 * 60 Minuten
+  * 10 Minuten Einführung
+  * 40 Minuten Bearbeitung der Aufgabe
+  * 10 Minuten Besprechung
 
 ## Lernart bzw. Sozialform
 
 * Einzelarbeit
 
-## HANOKs
+## HANOKs & Lernziele
 
-\-
+HANOKs: -
+
+Lernziele:
+
+* Du kennst den Nutzen der JDBC Bibliothek
+* Du kannst JDBC nutzen um auf eine Datenbank zu zugreifen
+  * Verbindungsaufbau
+  * Statement absetzen
+  * Daten verarbeiten
 
 ## Einführung LP in das Basiswissen
 
@@ -19,19 +30,23 @@
 
 ## Literatur zum Thema
 
-1. Praehofer "Funktionale Programmierung" Kapitel
+* Praehofer "Funktionale Programmierung" Kapitel
+* [Java Database Connectivity with 5 Steps](https://www.javatpoint.com/steps-to-connect-to-the-database-in-java)
+* [PreparedStatement interface](https://www.javatpoint.com/PreparedStatement-interface)
+* [ResultSet interface](https://www.javatpoint.com/ResultSet-interface)
 
 ## Ausgangslage
 
-Du bringst bereits Erfahrungen im Umgang mit Datenbanken und grundlegende JAVA-Kenntnisse mit. Dies wollen wir uns nun zu Nutze machen um Datensätze aus einer Applikation permanentn abzuspeichern und weiter zu verarbeiten.  
-Die EDUGames AG möchte die grundlegenden Information von Spielen applikatorisch in einer Datenbank ablegen und daraus auch auslesen können. Hierfür legen wir eine kleine Datenbank samt einer Tabelle Game an und greifen darauf aus einer Konsolenapplikation zu.  
+Du bringst bereits Erfahrungen im Umgang mit Datenbanken und grundlegende JAVA-Kenntnisse mit. Dies wollen wir uns nun zu Nutze machen um Datensätze aus in einer Applikation permanent abzuspeichern und weiter zu verarbeiten.
 
-ERD der Datenbank m232_sq3a:  
+Die EDUGames AG möchte die grundlegenden Information von Spielen mittels einer Applikation in einer Datenbank ablegen und daraus auch auslesen können. Hierfür legen wir eine kleine Datenbank samt einer Tabelle **Game** an und greifen darauf aus einer _Konsolenapplikation_ zu.  
+
+ERD der Datenbank **m232_sq3a**:  
 ![ERD](images/erd.jpg)
 
 ## Ziel
 
-* Du sollst wissen mit welchen Mitteln du aus einem Programm auf eine Datenbank zugreifen kannst
+* Du sollst wissen mit welchen Mitteln du aus einem JAVA Programm auf eine Datenbank zugreifen kannst
 * Du kannst Datensätze aus einer Datenbank herauslesen und in JAVA-Objekte umwandeln
 * Du kannst JAVA-Objekte permanent in einer Datenbank ablegen
 
@@ -51,5 +66,5 @@ ERD der Datenbank m232_sq3a:
 
 ## Wissens-Check
 
-* Welche Abfolge Durchläuft der Prozess um Daten zu laden bei der Verwendung von JDBC? <!-- 2 -->
+* Welche Abfolge Durchläuft der Prozess um Daten zu laden bei der Verwendung von JDBC? <!-- Verbindungsaufbau, Query Erzeugen, Query Absetzen, ResultSet auslesen -->
 * Weshalb sollten Datenbankverbindung nach beendigter Arbeit stets geschlossen werden? <!-- Es können nur eine bestimmte Anzahl vor Verbindungen gleichzeitig offen sein. Ist dieses Limit erreicht können keine neuen Verbindungen geöffnet werden und Anfragen werden fehlschlagen. -->
