@@ -2,10 +2,10 @@
 
 ## Zeit
 
-* 60 Minuten
-  * 5 Minuten Einführung
-  * 45 Minuten Bearbeitung der Aufgabe
-  * 10 Minuten Besprechung
+* 75 Minuten
+  * 10 Minuten Einführung
+  * 50 Minuten Bearbeitung der Aufgabe
+  * 15 Minuten Besprechung
 
 ## Lernart bzw. Sozialform
 
@@ -35,7 +35,9 @@ Lernziele:
 
 ## Literatur zum Thema
 
+* [Java 8 Stream Interface Methods](https://www.javatpoint.com/java-8-stream)
 * [Baeldung - Guide to Java 8 groupingBy](https://www.baeldung.com/java-groupingby-collector)
+* Praehofer "Funktionale Programmierung" Kapitel 4.1, 7
 
 ## Ausgangslage
 
@@ -56,6 +58,7 @@ Im Unterrichtsmaterial findest du ein vorgefertigtes Projekt samt SQL-Script fü
 ```java
 public Game getCheapestGame(){} // gibt das billigste Spiel zurück
 public Game getMostExpensiveGame(){} // gibt das teuerste Spiel zurück
+public List<Game> getGamesWithPriceAbove(double price){} // gibt alle Spiele mit einem Preis höher als dem Parameter aus
 public double getAverageGamePrice(){} // gibt den Durchschnittspreis aller Spiele zurück
 public Map<String, Double> getAveragePriceByGenre(){ } // gibt den Durchschnittspreis je Genre zurück
 public Map<String, List<Game>> getGamesByGenre(){} // gibt alle Spiele je Genre zurück

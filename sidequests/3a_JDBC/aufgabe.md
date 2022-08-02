@@ -2,10 +2,10 @@
 
 ## Zeit
 
-* 60 Minuten
+* 75 Minuten
   * 10 Minuten Einführung
-  * 40 Minuten Bearbeitung der Aufgabe
-  * 10 Minuten Besprechung
+  * 50 Minuten Bearbeitung der Aufgabe
+  * 15 Minuten Besprechung
 
 ## Lernart bzw. Sozialform
 
@@ -30,7 +30,7 @@ Lernziele:
 
 ## Literatur zum Thema
 
-* Praehofer "Funktionale Programmierung" Kapitel
+* Praehofer "Funktionale Programmierung" Kapitel 4.1, 7
 * [Java Database Connectivity with 5 Steps](https://www.javatpoint.com/steps-to-connect-to-the-database-in-java)
 * [PreparedStatement interface](https://www.javatpoint.com/PreparedStatement-interface)
 * [ResultSet interface](https://www.javatpoint.com/ResultSet-interface)
