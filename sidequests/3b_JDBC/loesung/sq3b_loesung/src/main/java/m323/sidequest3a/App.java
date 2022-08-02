@@ -17,7 +17,15 @@ public class App {
 		System.out.println("App: Start");
 
 		System.out.println("\nDas billigste Spiel ist: " + gameService.getCheapestGame().getTitle());
+		
 		System.out.println("\nDas teuerste Spiel ist: " + gameService.getMostExpensiveGame().getTitle());
+
+		System.out.println("\nSpiele mit einem Preis höher 25:");
+		List<Game> minPriceGames = gameService.getGamesWithPriceAbove(25);
+		for (Game game : minPriceGames) {
+			System.out.println(game.getTitle() + "\t\t" + game.getPrice() + " CHF");
+		}
+
 		System.out.println("\nDer Durchschnittspreis aller Spiele ist: " + gameService.getAverageGamePrice());
 
 		System.out.println("\nDie Durchschnittspreise je Genre sind:");

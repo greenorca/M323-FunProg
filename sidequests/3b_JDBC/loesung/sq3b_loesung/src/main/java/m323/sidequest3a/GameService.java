@@ -26,6 +26,16 @@ public class GameService {
 	}
 
 	/**
+	 * Gibt alle Spiele mit einem Preis höher dem mitgegebenem aus.
+	 * 
+	 * @param price Mindestpreis den ein Spiel haben muss
+	 * @return Eine Liste mit Spielen, welche die Anfoderung erfüllen
+	 */
+	public List<Game> getGamesWithPriceAbove(float price) {
+		return gameDao.getGames().stream().filter(g -> g.getPrice() > price).toList();
+	}
+
+	/**
 	 * Gibt den Durchschnittspreis aller Spiele aus.
 	 * 
 	 * @return Durchschnittspreis
@@ -53,5 +63,4 @@ public class GameService {
 	public Map<String, List<Game>> getGamesByGenre() {
 		return gameDao.getGames().stream().collect(Collectors.groupingBy(g -> g.getGenre()));
 	}
-
 }
