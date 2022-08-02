@@ -1,0 +1,23 @@
+html {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+body {
+  width: 90%;
+  margin: auto;
+}
+
+#title-block-header {
+  background-image: url('wiss_2021.gif');
+  background-repeat: no-repeat;
+  background-position: top right;
+  background-size: 15em;
+}
+
+#title-block-header h1 {
+  font-size: 3em;
+}
+
+img {
+  max-width: 90%;
+}

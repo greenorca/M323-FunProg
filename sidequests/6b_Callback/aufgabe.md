@@ -1,4 +1,4 @@
-# SQ5B - Callbacks
+# SQ6B - Callbacks
 
 ## Zeit
 
@@ -25,8 +25,8 @@ Die Aufgabenstellung kann gemeinsam im Tutorial-Stil durchgearbeitet werden.
 ## Literatur zum Thema
 
 1. Praehofer "Funktionale Programmierung" Kapitel 9
-2. https://java-design-patterns.com/patterns/callback/
-3. https://www.baeldung.com/java-executor-service-tutorial
+2. [https://java-design-patterns.com/patterns/callback/](https://java-design-patterns.com/patterns/callback/)
+3. [https://www.baeldung.com/java-executor-service-tutorial](https://www.baeldung.com/java-executor-service-tutorial)
 
 ## Ausgangslage
 

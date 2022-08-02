@@ -1,4 +1,4 @@
-# SQ5A - Builder-Pattern
+# SQ6A - Builder-Pattern
 
 
 ## Zeit
@@ -25,7 +25,7 @@
 ## Literatur zum Thema
 
 1. Praehofer "Funktionale Programmierung" Kapitel
-2. https://java-design-patterns.com/patterns/builder/
+2. [https://java-design-patterns.com/patterns/builder/](https://java-design-patterns.com/patterns/builder/)
 
 ## Ausgangslage
 
@@ -41,7 +41,7 @@ Das Prinzip der Builder wird gewissermassen in der Streaming-API angewandt: Stre
 
 ## Auftrag
 
-Arbeite mit zwei oder drei Kollegen die Inhalte der folgenden Webseite durch: https://java-design-patterns.com/patterns/builder/
+Arbeite mit zwei oder drei Kollegen die Inhalte der folgenden Webseite durch: [https://java-design-patterns.com/patterns/builder/](https://java-design-patterns.com/patterns/builder/)
 
 Dann erstellt ihr ein kleines Java-Projekt *M323_BuilderPattern* mit folgender Funktionalität:
 
