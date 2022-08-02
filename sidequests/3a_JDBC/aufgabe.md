@@ -1,11 +1,10 @@
 # SQ3A - JDBC
 
-## Zeit
+## Zeit - 75 Minuten
 
-* 75 Minuten
-  * 10 Minuten Einführung
-  * 50 Minuten Bearbeitung der Aufgabe
-  * 15 Minuten Besprechung
+* 10 Minuten Einführung
+* 50 Minuten Bearbeitung der Aufgabe
+* 15 Minuten Besprechung
 
 ## Lernart bzw. Sozialform
 
