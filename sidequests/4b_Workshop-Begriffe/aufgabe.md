@@ -18,15 +18,15 @@
 
 ## Einführung LP in das Basiswissen
 
-Bislang wurden viele praktische Anwendungsbegiete der funktionalen Programmierung aufgezeigt. Die Lernenden sollen in diesem SQ dein Grundverständnis für die dazugehörigen Fachbegriffe erarbeiten.
+Bislang wurden viele praktische Anwendungsgebiete der funktionalen Programmierung aufgezeigt. Die Lernenden sollen in diesem SQ dein Grundverständnis für die dazugehörigen Fachbegriffe erarbeiten.
 
 ## Literatur zum Thema
 
-* siehe Teilaufgaben in den Kursamterialien
+* siehe Teilaufgaben in den Kursmaterialien
 
 ## Ausgangslage
 
-Das Verständnis der grundlegenen Fachbegriffe ist essentiell wichtig für die Zusammenarbeit.
+Das Verständnis der grundlegenden Fachbegriffe ist essentiell wichtig für die Zusammenarbeit.
 
 ## Ziel
 
