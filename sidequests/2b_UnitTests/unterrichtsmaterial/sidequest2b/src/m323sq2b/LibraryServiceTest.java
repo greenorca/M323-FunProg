@@ -42,6 +42,7 @@ class LibraryServiceTest {
 		assertEquals(expectedBooks.size(), actualBooks.size());
 	}
 	
+	@Test
 	void mit3Buechern_getBookCount_gibt3Zurueck() {
 		// Arrange
 		List<Book> expectedBooks = Stream.of(
