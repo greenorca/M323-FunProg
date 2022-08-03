@@ -6,6 +6,7 @@ import java.sql.PreparedStatement;
 import java.sql.ResultSet;
 import java.sql.SQLException;
 import java.util.ArrayList;
+import java.util.List;
 
 /**
  * This class handles all the database access for loading and writing to
@@ -27,8 +28,8 @@ public class GameDao {
 	 * 
 	 * @return a list of Game objects
 	 */
-	public ArrayList<Game> getGames() {
-		ArrayList<Game> games = new ArrayList<Game>();
+	public List<Game> getGames() {
+		List<Game> games = new ArrayList<Game>();
 
 		try {
 			Class.forName(JDBC_DRIVER);

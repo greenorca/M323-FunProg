@@ -22,7 +22,7 @@ HANOKs: 1.1, 1.3, 1.4, 2.2, 3.2
 
 Lernziele:
 
-* Du kannst mittels einer Business-Klasse Logik vom Programm und der Datenbank entkoppelt
+* Du entkoppelst mittels einer Business-Klasse Logik vom Programm und der Datenbank 
 * Du kannst funktionale Programmierung einsetzen um Datenbank-Objekte zu Verarbeiten
 
 ## Einführung LP in das Basiswissen
@@ -40,7 +40,7 @@ Lernziele:
 
 ## Ausgangslage
 
-Die Auswertung der Datenbank soll bei der EduGames AG mehr über Programmcode als über Datenbankzugriffe passieren. Hierzu soll ein kleiner Prototyp entwickelt werden, welche gewisse rudimentäre Use-Cases abdeckt.
+Die Auswertung der Datenbank soll bei der EduGames AG mehr über Programmcode als über Datenbankzugriffe passieren. Hierzu soll ein kleiner Prototyp für einige einfache Use-Cases entwickelt werden.
 
 Im Unterrichtsmaterial findest du ein vorgefertigtes Projekt samt SQL-Script für die Datenbank samt Daten. Dieses Programm gilt es nun so zu erweitern, dass damit Auswertungen via Programmcode getätigt werden können.
 
@@ -64,7 +64,7 @@ public Map<String, List<Game>> getGamesByGenre(){} // gibt alle Spiele je Genre 
 ```
 
 3. Rufe diese Methoden in der **App**-Klasse auf und erzeuge einen sinnvollen Output in die Konsole.
-4. Implementiere nun die Logik der oben gegebenen Methodenrümpfe und verwende dabei lediglich die **getGames**-Methode der **GameDao**-Klasse ohne diese anzupassen.
+4. Implementiere nun die Logik der oben gegebenen Methodenrümpfe. Verwende dabei lediglich die **getGames**-Methode der **GameDao**-Klasse - ohne diese anzupassen (es geht um funktionale Programmierung, nicht um SQL-Abfragen).
 
 _**Hinweis:**  
-Du brauchst keine Anpassungen an der **GameDao**-Klasse vorzunehmen, alles passiert in der Service-Klasse._
+Ändere nur die **Service-Klasse**. Du brauchst keine Anpassungen an der **GameDao**-Klasse vorzunehmen._
