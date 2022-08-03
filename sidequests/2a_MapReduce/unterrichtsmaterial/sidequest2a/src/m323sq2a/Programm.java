@@ -24,8 +24,6 @@ public class Programm {
 		System.out.println("\nAnpassung der Einträge der Bibliothek mittels funktionaler Befehle");
 		List<Book> mappedBooks = mapUpper(Library.getBooks());
 		mappedBooks.forEach(b -> System.out.println(b.getTitle() + " (" + b.getReleaseYear() + ")"));
-
-		Library.getBooks().stream().sorted((b1, b2) -> b1.getTitle().compareTo(b2.getTitle())).collect(Collectors.toList());
 	}
 
 	/**
@@ -39,7 +37,11 @@ public class Programm {
 		List<Book> newBooks = new ArrayList<Book>();
 
 		for (Book book : books) {
-			newBooks.add(new Book(book.getTitle().toUpperCase(), book.getReleaseYear()));
+			newBooks.add(new Book(
+					book.getTitle().toUpperCase(), 
+					book.getAuthor(), 
+					book.getSoldCopies(),
+					book.getReleaseYear()));
 		}
 
 		return newBooks;
@@ -54,7 +56,11 @@ public class Programm {
 	 */
 	private static List<Book> mapUpper(List<Book> books) {
 		return books.stream()
-				.map(b -> new Book(b.getTitle().toUpperCase(), b.getReleaseYear()))
+				.map(b -> new Book(
+						b.getTitle().toUpperCase(), 
+						b.getAuthor(), 
+						b.getReleaseYear(), 
+						b.getReleaseYear()))
 				.collect(Collectors.toList());
 	}
 }
