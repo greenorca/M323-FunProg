@@ -32,7 +32,9 @@ public class GameService {
 	 * @return Eine Liste mit Spielen, welche die Anfoderung erfüllen
 	 */
 	public List<Game> getGamesWithPriceAbove(float price) {
-		return gameDao.getGames().stream().filter(g -> g.getPrice() > price).toList();
+		return gameDao.getGames().stream().
+				filter(g -> g.getPrice() > price).
+				collect(Collectors.toList());
 	}
 
 	/**

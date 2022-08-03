@@ -17,7 +17,7 @@ HANOKs: -
 Lernziele:
 
 * Du kennst den Nutzen der JDBC Bibliothek
-* Du kannst JDBC nutzen um auf eine Datenbank zu zugreifen
+* Du kannst mit JDBC auf eine Datenbank zugreifen
   * Verbindungsaufbau
   * Statement absetzen
   * Daten verarbeiten
@@ -36,16 +36,16 @@ Lernziele:
 
 ## Ausgangslage
 
-Du bringst bereits Erfahrungen im Umgang mit Datenbanken und grundlegende JAVA-Kenntnisse mit. Dies wollen wir uns nun zu Nutze machen um Datensätze aus in einer Applikation permanent abzuspeichern und weiter zu verarbeiten.
+Du bringst bereits Erfahrungen im Umgang mit Datenbanken und grundlegende JAVA-Kenntnisse mit. Dies wollen wir uns nun zu Nutze machen um Datensätze aus in einer App permanent abzuspeichern und weiter zu verarbeiten.
 
-Die EDUGames AG möchte die grundlegenden Information von Spielen mittels einer Applikation in einer Datenbank ablegen und daraus auch auslesen können. Hierfür legen wir eine kleine Datenbank samt einer Tabelle **Game** an und greifen darauf aus einer _Konsolenapplikation_ zu.  
+Die EDUGames AG möchte die grundlegenden Information von Spielen mit einer App in einer Datenbank ablegen und daraus auch auslesen können. Hierfür legen wir eine kleine Datenbank samt einer Tabelle **Game** an und greifen darauf aus einer _Konsolen-App_ zu.  
 
 ERD der Datenbank **m232_sq3a**:  
 ![ERD](images/erd.jpg)
 
 ## Ziel
 
-* Du sollst wissen mit welchen Mitteln du aus einem JAVA Programm auf eine Datenbank zugreifen kannst
+* Du kannst aus einem JAVA Programm auf eine Datenbank zugreifen
 * Du kannst Datensätze aus einer Datenbank herauslesen und in JAVA-Objekte umwandeln
 * Du kannst JAVA-Objekte permanent in einer Datenbank ablegen
 
@@ -55,7 +55,7 @@ ERD der Datenbank **m232_sq3a**:
 1. Importiere das Projekt **sidequest3a** des Unterrichtsmittels in deine IDE, das grundlegende Setup ist bereits gemacht
     * In der Klasse **Programm** läuft das Programm, hier fügst du generellen Code ein
     * In der Klasse **DBHelper** sind bereits Methodenrümpfe vorbereitet, hier fügst du datenbankspezifischen Code hinzu (Kommentare beachten)
-1. Konfiguriere das Projekt so, dass du damit einen Verbindugnstest mit der Datenbank durchführen kannst
+1. Konfiguriere das Projekt so, dass du damit einen Verbindungstest mit der Datenbank durchführen kannst
     * Frage die Lehrperson, falls es Probleme gibt
 1. Erstelle in der Datenbank eine Tabelle **spiel** mit den in der Ausgangslage beschriebenen Spalten
 1. Implementiere im Projekt eine Modell-Klasse **Spiel** mit den Feldern, welche in der Datenbank vorkommen
