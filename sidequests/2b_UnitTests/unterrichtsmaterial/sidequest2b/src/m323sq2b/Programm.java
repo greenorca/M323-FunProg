@@ -14,7 +14,6 @@ public class Programm {
 	static LibraryService libService = new LibraryService(Library.getBooks());
 
 	public static void main(String[] args) {
-
 		// Diese Auswertung verwendet bereits den Library Service und dient als Beispiel.
 		System.out.print("Anzahl Buecher in der Bibliothek: ");
 		System.out.println(libService.getBookCount());
@@ -45,7 +44,7 @@ public class Programm {
 				.mapToInt(b -> b.getSoldCopies()).sum());
 
 		System.out.println("\nAnzahl Verkäufe zwischen den Jahren 1990 und 2000:");
-		Library.getBooks().stream().filter(b -> b.getReleaseYear() > 1990 && b.getReleaseYear() < 2000)
+		libService.getBooks().stream().filter(b -> b.getReleaseYear() > 1990 && b.getReleaseYear() < 2000)
 			.forEach(b -> {
 				System.out.println("- " + b.getTitle() + " (" + b.getSoldCopies() + " Mio) ");
 			});
@@ -58,6 +57,5 @@ public class Programm {
 		System.out.print("\nLetzte Veröffentlichung: ");
 		int releaseYear = libService.getBooks().stream().mapToInt(b -> b.getReleaseYear()).max().getAsInt();
 		System.out.println(releaseYear);
-
 	}
 }
