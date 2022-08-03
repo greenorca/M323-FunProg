@@ -8,7 +8,7 @@
 
 ## Lernart bzw. Sozialform
 
-* Partnerarbeit
+* Einzelarbeit
 
 ## HANOKs & Lernziele
 
@@ -30,7 +30,10 @@ Lernziele
 
 ## Einführung LP in das Basiswissen
 
-* Kurze Auffrischung zum Thema UnitTests verfassen
+* Kurze Auffrischung zum Thema UnitTests verfassen: Die 3 A's
+  * Arrange
+  * Act
+  * Assert
 
 ## Literatur zum Thema
 
@@ -38,14 +41,20 @@ Lernziele
 
 ## Ausgangslage
 
-Du hast den vorhergehenden Sidequest soweit bearbeitet, dass du diesen als Grundlage für die weitere Arbeit gebrauchen kannst. Falls deine Lösung nicht zu deiner Zufriedenheit funktioniert importiere den Lösungsvorschlag als neues Projekt für die Bearbeitung dieses Sidequests.
+Für diese Aufgabe wurde der Lösungsvorschlag aus dem vorherigen Sidequest leicht angepasst. Neue gibt es eine Klasse **LibraryService** welche für die effektiven Auswertungen zuständig sein soll. Damit die Migration vom vorherigen Programmcode erfolgreich ist, wurde auch eine Klasse **LibraryServiceTest** implementiert worin vor der Migration UnitTests verfasst werden sollen.
+
+Zum leichteren Einstieg wurde in der **LibraryServiceTest**-Klasse bereits ein Test für das Zählen der Bibliothekseinträge implementiert. Dies wird neu über die Methode **getBookCount** über den **LibraryService** bereitgestellt. Der entsprechende Aufruf wurde im Programm ebenfalls angepasst und kommentiert (siehe **Programm.java**).
 
 ## Ziel
 
-Mit UnitTests soll abgesichert werden, dass deine zuvor gemachten Arbeiten ein erwartetes Ergebnis liefern. Gewollt ist such der Nebeneffekt, dass bei allfälliger Änderungen deiner Implementierungen die UnitTests fehlschlagen und somit die Veränderung erkannt wird.
+Mit UnitTests soll abgesichert werden, dass deine zuvor gemachten Arbeiten nach der Migration ein erwartetes Ergebnis liefern. Gewollt ist auch der Nebeneffekt, dass bei allfälliger Änderungen deiner Implementierungen die UnitTests fehlschlagen und somit die Veränderung erkannt wird.
 
 ## Auftrag
 
-## Wissens-Check
-
-* Was ist 1+1? <!-- 2 -->
+1. Importiere das Beispielprojekt aus den Unterrichtsmaterialien in deine IDE
+1. Analysiere die Klasse **LibraryService** und **LibraryServiceTest**
+1. Implementiere für alle Auswertungen in der **Programm**-Klasse entsprechende **Methodenrümpfe** (Methoden, ohne innere Logik, bei Wertrückgabe _NULL_ oder einen Standartwert verwenden) in der **LibraryService**-Klasse
+1. Implementiere nun in der **LibraryServiceTest**-Klasse für jeden Methodenrumpf eine entsprechende Testmethode. Diese sollen sicherstellen, dass nach der Migration noch alles so läuft wie vorher.
+1. Sobald du alle Testmethoden verfasst hast, **übertrage** die Auswertungen aus der **Programm**-Klasse in ihre jeweilige Methode der **LibraryService**-Klasse
+1. Lasse die Tests durchlaufen und passe etwaige Fehler noch an
+1. Wenn alle Tests erfolgreich sind, kann man mit gutem gewissen die **LibraryService**-Klasse einsetzen. Passe die Auswertungen in der **Programm**-Klasse an, so dass dies die Methoden der **LibraryService**-Klasse verwenden (analog dem getBookCount)
