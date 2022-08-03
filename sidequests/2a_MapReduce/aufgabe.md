@@ -22,20 +22,17 @@ HANOKs: 1.1, 1.3, 1.4, 2.2, 3.2
 
 Lernziele:
 
-* Du kannst die map-Funktion für das Neubilden von Datensätzen verwenden
-* Du kannst die reduce-Funktion für das Herunterbrechen von Datensätzen verwenden
-* Du kannst mittels filter-Funktion Datensätze suchen
-* Du kannst gängige reduce-Funktionen einsetzen um Datensätze auszuwerten
+* Du kannst auf komplexen Objekten mittels funktionaler Operationen Auswertungen durchführen
 
 ## Einführung LP in das Basiswissen
 
-* Anhand des Projektes aus dem Unterrichtsmaterial die unterschied zwischen klassischer Verarbeitung und derer mittels funktionaler Ansätze aufzeigen
-* Elementare Funktionen kurz vorstellen:
-  * map
-  * reduce
-  * filter (Beispiel wir )
-  * collect
-  * sorted
+* Arbeiten mit komplexen Objekten bei Streams (Projekt im Unterrichtsmaterial als Orientierung)
+* Elementare Terminal-Operationen kurz vorstellen:
+  * count
+  * sum
+  * min
+  * max
+  * average
 
 ## Literatur zum Thema
 
@@ -51,3 +48,17 @@ Du hast das Projekt aus dem Unterrichtsmaterial in deine IDE importiert und dies
 Die Applikation soll so erweitert werden, dass mittels gängiger funktionaler Befehle einfache Auswertungen gemacht werden.
 
 ## Auftrag
+
+Erweitere dein Programm soweit, dass bei den folgenden Anforderungen die Auswertung jeweils in der Konsole ausgegeben wird.
+
+1. Analysiere den Code des Beispielprojektes und beachte dabei den Umgang mit dem komplexen Objekt **Book**
+1. Gib die **Anzahl** aller Bücher aus
+1. Gib die **Anzahl** aller Bücher aus, welche nach dem _Jahr 2000_ veröffentlicht wurden
+1. Gib an wie viele Bücher **insgesamt** verkauft wurden
+1. Gib an wie viele Bücher im **Durchschnitt** verkauft wurden
+1. Gib an welches Buch am **wenigsten Verkäufe** hat, inklusive Zahl
+1. Gib an welches Buch am **meisten Verkäufe** hat, inklusive Zahl
+1. Gib an wie viele Bücher die Autorin _J. K. Rowling_ insgesamt verkauft hat
+1. Gib an **wie viele Kopien** der Bücher, welche _zwischen den Jahren 1990 & 2000_ veröffentlicht wurden, abgesetzt wurden
+1. Gib das an welches Buch das **älteste** ist und wann es veröffentlicht wurde
+1. Gib an, in welchem Jahr **zuletzt** ein Buch veröffentlicht wurde
