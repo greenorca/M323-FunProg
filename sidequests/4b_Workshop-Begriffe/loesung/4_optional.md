@@ -11,7 +11,7 @@ Studiert die angegebenen Quellen zum Thema **Optional** und beantwortet die folg
 
 * Was ist der Sinn von `Optional<T>`?
 <!--
-  vermeiden von Null-Pointer-Exceptions, Alternative zum Elvis-Oprator (?) in anderen Programmiersprachen
+  vermeiden von Null-Pointer-Exceptions, Alternative zum Elvis-Operator (?) in anderen Programmiersprachen
 -->
 * Welche Funktionen haben `Optional`-Objekte?  
 <!--
