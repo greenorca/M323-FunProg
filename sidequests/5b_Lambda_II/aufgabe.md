@@ -36,7 +36,7 @@ Du kannst mit innerhalb von Lambda-Ausdrücken lesend und schreibend auf externe
 ## Auftrag
 
 
-Analysiere die folgenden Beispielaufgaben.
+Im nächsten Beispiel soll ein Programm in einem ersten Schritt prüfen, ob eine Zahl duch 2 geteilt werden kann. In einem weiteren Schritt möchtem man dann zum Bsp. den Teiler schrittweise erhöhen, um zu prüfen ob die Zahl auch durch 3,4,5... teilbar wäre. Analysiere dazu die folgenden Codeausschnitte:
 
 ### Lesender Zugriff auf freie Variablen
 
