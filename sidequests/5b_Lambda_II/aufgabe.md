@@ -72,7 +72,7 @@ public class Lambda_w_ReadOnlyVars {
 ```
 
 
-Der Compiler verweigert nun im folgenden Code alle Versuche, innerhalb des Lambda-Ausdrucks die Werte freie Variablen zu verändern:
+Der Compiler verweigert nun im folgenden Code alle Versuche, innerhalb des Lambda-Ausdrucks die Werte einer freien Variablen zu verändern:
 
 ```java
 public static boolean istTeilbarDurch2(int zahl) {
