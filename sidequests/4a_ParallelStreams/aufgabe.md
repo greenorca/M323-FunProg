@@ -67,12 +67,12 @@ Du kannst Datenstrukturen parallel verarbeiten und den Zeitgewinn gegenüber der
 Erstelle eine neue Java-Klasse `Block4_Parallel` mit einer `public static void main` - methode. Darin programmierst du die folgenden Anweisungen:
 
 1. Erstelle einen Array *zahlen* mit den Zahlen von 0 bis 10^9 (siehe Javadoc für die Klasse *IntStream*)
-2. Erstelle eine Variable t0 mit dem aktuellen Zeitstempel (z.B. als Instanz der *Calendar*-Klasse)
+2. Erstelle eine Variable *cal0* mit dem aktuellen Zeitstempel (z.B. als Instanz der *Calendar*-Klasse)
 3. Streame den *zahlen*-Array, filtere die geraden Zahlen und zähle die Anzahl in einer Anweisung (Hinweis: nutze `IntStream.of(zahlen)` zum streamen).
-2. Erstelle eine Variable *t1* mit dem aktuellen Zeitstempel (z.B. als Instanz der *Calendar*-Klasse). Die `getTimeMillis()`-Funktion der *Calendar*-Klasse gibt die Millisekunden zurück. Damit kannst Du die Zeitdifferenz von *t0* und *t1* berechnen und auf der Konsole ausgeben.
-2. Setze t0 auf den aktuellen Zeitstempel.
+2. Erstelle eine Variable *cal1* mit dem aktuellen Zeitstempel (z.B. als Instanz der *Calendar*-Klasse). Die `getTimeMillis()`-Funktion der *Calendar*-Klasse gibt die Millisekunden zurück. Damit kannst Du die Zeitdifferenz von *cal0* und *cal1* berechnen und auf der Konsole ausgeben.
+2. Setze *cal0* auf den aktuellen Zeitstempel.
 2. Streame den *zahlen*-Array wie oben, dann **parallelisiere** diesen Stream. Darin filterst du die geraden Zahlen und zählst die Anzahl in einer Anweisung.
-2. Setze *t1* auf den aktuellen Zeitstempel und berechne die Zeitdifferenz von *t0* und *t1* für die parallele Bearbeitung. Was stellst Du fest?
+2. Setze *cal1* auf den aktuellen Zeitstempel und berechne die Zeitdifferenz von *cal0* und *cal1* für die parallele Bearbeitung. Was stellst Du fest?
 
 
 
@@ -87,16 +87,18 @@ Erstelle eine neue Java-Klasse `Block4_Parallel` mit einer `public static void m
 
 <!--
 ```java
-int[] data = IntStream.range(0, 100000000).toArray();
+int[] zahlen = IntStream.range(0, 100000000).toArray();
 Calendar cal0 = Calendar.getInstance();
-long elems = IntStream.of(data).filter(x -> x%2 == 0).count();
-long tDelta = Calendar.getInstance().getTimeInMillis() - cal0.getTimeInMillis();
+long elems = IntStream.of(zahlen).filter(x -> x%2 == 0).count();
+Calendar cal1 = Calendar.getInstance();
+long tDelta = cal1.getTimeInMillis() - cal0.getTimeInMillis();
 
 System.out.println("anzahl gefilterter Elemente: "+ elems);
 System.out.println("sequential processing time: "+tDelta+" ms");
 
 cal0 = Calendar.getInstance();
-elems = IntStream.of(data).parallel().filter(x -> x%2 == 0).count();
+elems = IntStream.of(zahlen).parallel().filter(x -> x%2 == 0).count();
+cal1 = Calendar.getInstance();
 tDelta = Calendar.getInstance().getTimeInMillis() - cal0.getTimeInMillis();
 
 System.out.println("anzahl gefilterter Elemente: "+ elems);
