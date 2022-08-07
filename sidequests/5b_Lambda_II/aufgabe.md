@@ -129,6 +129,7 @@ Am Ende gibst du alle *filteredValues*-Elemente auf der Konsole aus.
 
 ## Wissens-Check
 
-1. Was versteht man unter freien Variablen im Zusammenhang mit Lambda-Funktionen? <!-- sind Variblen, die ausserhalb der Lambda-Funktion deklariert wurden und innerhalb der Lambda genutzt werden, ohne dass sie als Parameter übergeben wurden  -->
+1. Was versteht man unter freien Variablen im Zusammenhang mit Lambda-Funktionen? <!-- sind Variablen, die ausserhalb der Lambda-Funktion deklariert wurden und innerhalb der Lambda genutzt werden, ohne dass sie als Parameter übergeben wurden  -->
 1. Welche Art von freien Variablen sind innerhalb von Lambda- bzw. Closures nur lesbar? <!-- primitive Datentypen -->
 1. Welche Art von freien Variablen sind innerhalb von Lambda- bzw. Closures auch änderbar? <!-- Objektreferenzen, z.B. List etc. -->
+1. Sind freie String-Variablen in Closures änderbar? <!-- nein -->
