@@ -17,7 +17,7 @@ public class Flugzeug {
 		passagiere = builder.passagiere;
 	}
 	
-	
+	@Override
 	public String toString() {
 		String result = String.format("Flugi: %s: Crew: %d, Gewicht: %d", 
 				this.typ, this.besatzung, this.leergewicht);
