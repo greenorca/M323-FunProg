@@ -133,3 +133,6 @@ Am Ende gibst du alle *filteredValues*-Elemente auf der Konsole aus.
 1. Welche Art von freien Variablen sind innerhalb von Lambda- bzw. Closures nur lesbar? <!-- primitive Datentypen -->
 1. Welche Art von freien Variablen sind innerhalb von Lambda- bzw. Closures auch änderbar? <!-- Objektreferenzen, z.B. List etc. -->
 1. Sind freie String-Variablen in Closures änderbar? <!-- nein -->
+
+## Für Fortgeschrittene
+Nun weisst Du wie man eine nummerierte Personenliste aus Sidequest 5A erstellen kann. Setzte dies als Closure um und teste diese aus. Gibt es auch alternative Implementierungs-Möglichkeiten für diese Closure? 
