@@ -18,7 +18,7 @@
 
 ## Einführung LP in das Basiswissen
 
-Bislang wurden viele praktische Anwendungsgebiete der funktionalen Programmierung aufgezeigt. Die Lernenden sollen in diesem SQ dein Grundverständnis für die dazugehörigen Fachbegriffe erarbeiten.
+Bislang wurden viele praktische Anwendungsgebiete der funktionalen Programmierung aufgezeigt. Die Lernenden sollen in diesem SQ ein Grundverständnis für die dazugehörigen Fachbegriffe erarbeiten.
 
 ## Literatur zum Thema
 
@@ -30,7 +30,14 @@ Das Verständnis der grundlegenden Fachbegriffe ist essentiell wichtig für die 
 
 ## Ziel
 
-Du erarbeitest mit deinen Kollegen eine Übersicht über einige Begriffe aus dem funktionalen Programmieren: Pure-Function, Immutable Data, Function, Optional, Functor und Closure. 
+Du erarbeitest mit deinen Kollegen eine Übersicht über einige Begriffe aus dem funktionalen Programmieren:
+
+* Pure-Function
+* Immutable Data
+* Function
+* Optional
+* Functor
+* Closure
 
 ## Auftrag
 
