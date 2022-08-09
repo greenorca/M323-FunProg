@@ -1,4 +1,4 @@
-# SQ1A - Titel
+# SQ6A - Builder-Pattern
 
 ## Zeit
 
