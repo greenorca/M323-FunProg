@@ -12,7 +12,7 @@
 
 ## Ausgangslage
 
-Mit dem Builder-Pattern können Objekte von Klassen erstellt werden, von denen nur bestimmte Attribute bekannt sind. Damit spart man sich das Erstellen vieler Konstruktor-Varianten. In dieser Aufgabe implementierst Du solche einen Builder für die vorgegebene Klasse *LB_SQ6A_Friend*. Diese Klasse dient zur Speicherung von Freuden.
+Mit dem Builder-Pattern können Objekte von Klassen erstellt werden, von denen nur bestimmte Attribute bekannt sind. Damit spart man sich das Erstellen vieler Konstruktor-Varianten. In dieser Aufgabe implementierst Du solch einen Builder für die vorgegebene Klasse *LB_SQ6A_Friend*. Diese Klasse dient zur Speicherung von Freuden.
 
 ## Auftrag
 
