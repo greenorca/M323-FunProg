@@ -60,7 +60,7 @@ Dann erstellt ihr ein kleines Java-Projekt *M323_BuilderPattern* mit folgender F
 * Zusatz: Teste deinen Code mit geeigneten JUnit-Tests
 
 
-Als Beispiel kann die java-StringBuilder-Klasse (Praehofer 5.1) angesehen werden.
+Als Beispiel kann die java-StringBuilder-Klasse (Praehofer 5.1) angesehen werden. Damit bei den optionalen Attributen nicht mit Null-Pointer oder Excetions programmiert werden muss, ist es ein eleganter Weg dies mit der Klasse Option zu tun (evtl. nur für Fortgeschrittene).
 
 ## Wissens-Check
 
