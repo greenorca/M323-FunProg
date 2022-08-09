@@ -7,7 +7,7 @@ import java.util.stream.IntStream;
 public class SQ5B_FilterClosure {
 	
 	public static void main(String[] args) {
-		List<Integer> liste = IntStream.range(0, 10)
+		List<Integer> liste = IntStream.range(0, 100)
 				.boxed()
 				.collect(Collectors.toList());
 		List<Integer>  filterValues = filterList(liste, 2);
