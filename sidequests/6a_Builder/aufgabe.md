@@ -26,6 +26,7 @@
 
 1. Praehofer "Funktionale Programmierung" Kapitel 5.1
 2. [https://java-design-patterns.com/patterns/builder/](https://java-design-patterns.com/patterns/builder/)
+3. https://www.baeldung.com/java-optional (für den eleganten Umgang mit optionalen Attributen)
 
 ## Ausgangslage
 
