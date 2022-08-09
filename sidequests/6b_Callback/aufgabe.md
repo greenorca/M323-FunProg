@@ -96,7 +96,8 @@ Du lernst, mit asynchronen Funktionen zu arbeiten und Callbacks zu erstellen.
 1. Nun kommt das Sahnehäubchen - wir wollen im Hauptprogramm benachrichtigt werden, wenn die Berechnung fertig ist. Das erledigen wir über ein sogenanntes *Callback*-Interface:
 
     ```java
-    interface Callback{
+    @FunctionalInterface
+    interface Callback {
       public void call();
     }
     ```
