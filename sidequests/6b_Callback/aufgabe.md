@@ -43,7 +43,7 @@ Du lernst, mit asynchronen Funktionen zu arbeiten und Callbacks zu erstellen.
 ## Auftrag
 
 1. Erstelle ein neues Java-Projekt *SQ5B_Callback*
-1. Erstelle eine neue Klasse *Task* mit einem `Optional<Integer>`-Attribut *result* und der folgenden Funktion:
+1. Erstelle eine neue Klasse *Task* mit einem `Optional<Integer>`-Attribut *result* und der folgenden absichtlich langsam arbeitenden Funktion:
     ```java
     public void slowSum(int a , int b) {
       try {
