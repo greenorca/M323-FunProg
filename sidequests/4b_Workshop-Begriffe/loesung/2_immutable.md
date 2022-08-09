@@ -5,11 +5,13 @@ Studiert die angegebenen Quellen zum Thema **immutable data** und beantwortet di
 ## Quellen
 
 * [https://www.baeldung.com/java-immutable-object](https://www.baeldung.com/java-immutable-object)
+* [https://www.baeldung.com/java-immutable-list](https://www.baeldung.com/java-immutable-list)
 
 ## Fragen
 
 1. Was ist der Sinn von unveränderlichen Variablen? <!-- nach erstmaliger Wertzuweisung unveränderlich -->
-1. Wie macht man Variablen unveränderbar? <!-- final int x = 42 -->
+1. Wie macht man Variablen mit elementare Datentypen unveränderbar? <!-- final int x = 42 -->
+1. Wie macht man List-Daten unveränderbar? <!-- Collections.unmodifiableList(list) -->
 
 
-<!-- Geschätzter Zeitaufwand: 15 Minuten (ein kleiner Artikel) -->
+<!-- Geschätzter Zeitaufwand: 20 Minuten (zwei kleine Artikel) -->
