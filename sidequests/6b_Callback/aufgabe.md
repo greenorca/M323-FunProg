@@ -55,7 +55,7 @@ Du lernst, mit asynchronen Funktionen zu arbeiten und Callbacks zu erstellen.
       }
     }
     ```
-1. Erstelle darin eine Klasse *Demo* mit der folgenden *main* Methode zum Demonstrieren blockierender Aufrufe:
+1. Erstelle zudem eine Hauptklasse *Demo* mit der folgenden *main* Methode zum Demonstrieren eines blockierenden Aufrufs:
     ```java
     public static void main(String[] args) {
       int a = 1, b = 2;
@@ -100,7 +100,7 @@ Du lernst, mit asynchronen Funktionen zu arbeiten und Callbacks zu erstellen.
       public void call();
     }
     ```
-    Wie du siehst, ist das wieder ein funktionales Interface. Dieses Interface definieren wir als zusätzlichen Parameter in unserer Berechnungsfunktion der Klasse *Task*-Klasse und rufen es auf, sobald die Berechnung fertig ist:
+    Wie du siehst, ist das wieder ein funktionales Interface. Dieses Interface definieren wir als zusätzlichen Parameter callMe in unserer Berechnungsfunktion der Klasse *Task*-Klasse und rufen es mit callMe.call() auf, sobald die Berechnung fertig ist:
     ```java
     public void slowSum(int a , int b, Callback callMe) {
       try {
@@ -129,7 +129,7 @@ Du lernst, mit asynchronen Funktionen zu arbeiten und Callbacks zu erstellen.
 
 Dieses Codebeispiel ist eine stark vereinfachte Version zur Demonstration asynchroner Prozesse mit Callbacks. Im richtigen Programmierer-Alltag findest Du statt der `Tread.sleep` oft REST-API-Aufrufe, und statt der Konsolenausgaben wirst Du wohl eher Daten in die GUI schreiben.
 
-Übrigens - das bei GUI-Frameworks oft genutzte Observer-Entwurfsmuster basiert auf dem Callback-Prinzip.
+Übrigens - das bei GUI-Frameworks oft genutzte Observer-Pattern (Observer Entwurfsmuster) basiert auf dem Callback-Prinzip.
 
 ## Wissens-Check
 
