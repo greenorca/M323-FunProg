@@ -31,13 +31,53 @@ Lernziele
 ## Einführung LP in das Basiswissen
 
 * Kurze Auffrischung zum Thema UnitTests verfassen: Die 3 A's
-  * Arrange
-  * Act
-  * Assert
+  * Arrange - Vorbereiten
+  * Act - Ausführen
+  * Assert - Überprüfen
 
-## Literatur zum Thema
+Ein Unit Test besteht immer aus 3 Elementen: Arrange, Act, Assert. Wobei das Arrange unter Umständen auch weggelassen werden kann, sofern keine Daten vorbereiten werden müssen. Die 3 A's sind aber eine gute Orientierungshilfe beim Verfassen von Unit Tests.
 
---
+### Beispiel
+
+#### Klasse Rechner
+
+```java
+public class Rechner {
+  
+  public int addition(int zahl1, int zahl2) {
+    return zahl1 + zahl2;
+  }
+
+}
+```
+
+#### Unit Test - RechnerTest
+
+```java
+public class RechnerTest {
+  
+  @Test
+  public void given11And22_whenAddition_thenReturns33() {
+    // Arrange
+    int number1 = 11;
+    int number2 = 22;
+    int expectedResult = 33;
+
+    // Act
+    int actualResult = new Rechner().addition(number1, number2);
+
+    // Assert
+    assertEquals(expectedResult, actualResult);
+  }
+
+}
+```
+
+### Literatur zum Thema
+
+* [Baeldung - Best Practices for Unit Testing](https://www.baeldung.com/java-unit-testing-best-practices)
+* [Baeldung - Assertions in JUnit 4 and JUnit 5](https://www.baeldung.com/junit-assertions)
+* [Baeldung - A Guide to JUnit 5](https://www.baeldung.com/junit-5)
 
 ## Ausgangslage
 
