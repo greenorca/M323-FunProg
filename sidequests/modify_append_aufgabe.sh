@@ -1,7 +1,15 @@
 #!/bin/bash
 
-for dir in `ls -d */`; do
-    cd $dir
+done_file=".done"
+
+if [ -f $done_file ]; then 
+    echo "script must only be executed once!"
+    exit 0
+fi
+
+for dir in */; do
+    if [[ -d "$dir" ]]; then 
+    cd "$dir"
     echo '
 ## Evaluation Lernende
 
@@ -15,4 +23,7 @@ aktuelles Eclipse + JDK17 + Zeal
     sed -i 's/## Ziel/## Ziele \/ erwartete Lernergebnisse/g' aufgabe.md 
 
     cd ..
+    fi
 done
+
+echo "DONE" > $done_file

@@ -4,6 +4,7 @@ html {
 
 body {
   width: 90%;
+  max-width: 1000px;
   margin: auto;
 }
 
@@ -20,4 +21,14 @@ body {
 
 img {
   max-width: 90%;
+}
+
+li {
+    margin-bottom: 0.3em;
+}
+
+table, th, td {
+    border: 1px solid #333;
+    border-collapse: collapse;
+    padding: 3px 5px;
 }
