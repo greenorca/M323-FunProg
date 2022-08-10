@@ -34,7 +34,88 @@ Lernziele:
   * max
   * average
 
-## Literatur zum Thema
+### Beispiel Objekt _User_
+
+```java
+public class User{
+  private String firstname;
+  private String lastname;
+  private int age;
+
+  // ... here be getters and setters ...
+}
+```
+
+Wir gehen davon aus, dass eine Variable `users` des Typs `List<User>` existiert.
+
+### `count`-Methode
+
+Zählt alle Elemente eines Streams.
+
+```java
+int anzahlUser = users.stream().count();
+```
+
+### `sum`-Methode
+
+Summiert die selektieren Elemente eines Streams.
+
+```java
+int alterAllerUser = users.stream().mapToInt(u -> u.getAge()).sum();
+```
+
+1. Mit `mapToInt` wird aus dem Übergebenen Attribut eine Zahlenliste generiert.
+1. Diese wird wiederum mit `sum` zusammengezählt.
+
+### `min`-Methode
+
+Gibt das Element mit dem kleinsten Wert aus einem Stream zurück.
+
+```java
+int geringstesAlter = users.stream().mapToInt(u -> u.getAge()).min();
+```
+
+1. Mit `mapToInt` wird aus dem Übergebenen Attribut eine Zahlenliste generiert.
+1. Aus dieser wird mittels `min` der kleinste Wert gesucht.
+
+### `max`-Methode
+
+Gibt das Element mit dem grössten Wert aus einem Stream zurück.
+
+```java
+int hoechstesAlter = users.stream().mapToInt(u -> u.getAge()).max();
+```
+
+1. Mit `mapToInt` wird aus dem Übergebenen Attribut eine Zahlenliste generiert.
+1. Aus dieser wird mittels `max` der höchste Wert gesucht.
+
+### `average`-Methode
+
+Gibt den Durchschnittswert eines Elements aus einem Stream zurück.
+
+```java
+int durchschnittsAlter = users.stream().mapToInt(u -> u.getAge()).average();
+```
+
+1. Mit `mapToInt` wird aus dem Übergebenen Attribut eine Zahlenliste generiert.
+1. Aus dieser wird mittels `average` der Durchschnittswert ermittelt.
+
+### Kombination mit `filter`
+
+_Beispiel_: Durchschnittsalter aller User älter als 10 Jahre
+
+```java
+int durchschnittsAlter = users.stream()
+                          .filter(u -> u.getAge() > 10)
+                          .mapToInt(u -> u.getAge())
+                          .average();
+```
+
+1. Mit `filter` werden alle User herausgefiltert, die 10 Jahre alt und jünger sind.
+1. Mit `mapToInt` wird aus dem Übergebenen Attribut eine Zahlenliste generiert.
+1. Aus dieser wird mittels `average` der Durchschnittswert ermittelt.
+
+### Literatur zum Thema
 
 * [Java 8 Stream Interface Methods](https://www.javatpoint.com/java-8-stream)
 * Praehofer "Funktionale Programmierung" Kapitel 4.1, 7
