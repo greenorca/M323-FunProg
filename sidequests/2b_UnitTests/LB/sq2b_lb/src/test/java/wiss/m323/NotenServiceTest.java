@@ -15,10 +15,10 @@ public class NotenServiceTest {
 	@BeforeEach
 	public void setup() {
 
-		List<Note> noten = Stream.of(new Note("M117", 6), new Note("M122", 5.5), new Note("M162", 5),
-				new Note("M164", 4.5), new Note("M187", 4), new Note("M231", 3.5), new Note("M319", 3),
-				new Note("M431", 2.5), new Note("M106", 2), new Note("M114", 1.5), new Note("M123", 1),
-				new Note("M254", 3.1), new Note("M293", 3), new Note("M306", 3.7), new Note("M346", 4)).toList();
+        List<Note> noten = Stream.of(new Note("M117", 6),   new Note("M122", 4.5), new Note("M162", 3),
+			                         new Note("M164", 5.5), new Note("M187", 4),   new Note("M231", 2.5), new Note("M319", 1.5),
+			                         new Note("M431", 5),   new Note("M106", 3.5), new Note("M114", 2),   new Note("M123", 1),
+			                         new Note("M254", 3.1), new Note("M293", 3),   new Note("M306", 3.7), new Note("M346", 4)).toList();
 
 		service = new NotenService(noten);
 	}
