@@ -25,13 +25,13 @@ Die Aufgabenstellung kann gemeinsam im Tutorial-Stil durchgearbeitet werden.
 ## Literatur zum Thema
 
 1. Praehofer "Funktionale Programmierung" Kapitel 9
-2. https://www.tutorialspoint.com/Callback-using-Interfaces-in-Java
+2. [https://www.tutorialspoint.com/Callback-using-Interfaces-in-Java](https://www.tutorialspoint.com/Callback-using-Interfaces-in-Java)
 3. [https://java-design-patterns.com/patterns/callback/](https://java-design-patterns.com/patterns/callback/)
 4. [https://www.baeldung.com/java-executor-service-tutorial](https://www.baeldung.com/java-executor-service-tutorial)
 
 ## Ausgangslage
 
-Programme (und auch Webseiten) zeigen häufig Daten von externe Diensten an (z.b. Datenbanken, externe REST-Schnittstellen etc.).
+Programme (und auch Webseiten) zeigen häufig Daten von externen Diensten an (z.b. Datenbanken, externe REST-Schnittstellen etc.).
 
 Solche Zugriffe sind ziemlich langsam und können die eigene App blockieren. Dann muss der Benutzer lange warten, bis er weiter arbeiten kann.
 
@@ -102,7 +102,9 @@ Du lernst, mit asynchronen Funktionen zu arbeiten und Callbacks zu erstellen.
       public void call();
     }
     ```
+
     Wie du siehst, ist das wieder ein funktionales Interface. Dieses Interface definieren wir als zusätzlichen Parameter callMe in unserer Berechnungsfunktion der Klasse *Task*-Klasse und rufen es mit callMe.call() auf, sobald die Berechnung fertig ist:
+    
     ```java
     public void slowSum(int a , int b, Callback callMe) {
       try {
@@ -118,7 +120,9 @@ Du lernst, mit asynchronen Funktionen zu arbeiten und Callbacks zu erstellen.
       }
     }
     ```
+    
     Jetzt können wir beim Aufruf der *slowSum*-Funktion in unserer **main* ein Callback-Objekt (als Lambda-Ausdruck) übergeben, mit dem wir das fertige Ergebnis abholen:
+    
     ```Java
     exServer.execute(()->{
       task.slowSum(a, b,
@@ -135,6 +139,5 @@ Dieses Codebeispiel ist eine stark vereinfachte Version zur Demonstration asynch
 
 ## Wissens-Check
 
-* Wozu dienen Callbacks?
-<!-- dient der Benachrichtigung des Aufrufers, dass asynchrone Ablauf beendet ist -->
+* Wozu dienen Callbacks? <!-- dient der Benachrichtigung des Aufrufers, dass asynchrone Ablauf beendet ist -->
 * Wie kann man langsame Programmaufrufe so gestalten, dass der Programmablauf nicht blockiert wird? <!-- als asynchrone Aufrufe mittels ExecutorService -->
