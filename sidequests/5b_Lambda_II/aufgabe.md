@@ -29,7 +29,7 @@
 
 Du hast bereits gelernt, funktionale Interfaces mit Lambda-Ausdrücken zu implementieren. Dabei wurde bisher auf *pure functions* ohne Seiteneffekte und ohne freie Variablen geachtet. In diesem Sidequest lernst Du, auch Funktionale Interfaces mit gewünschten bzw. erforderlichen  Seiteneffekten zu implementieren.
 
-## Ziel
+## Ziele / erwartete Lernergebnisse
 
 Du kannst innerhalb von Lambda-Ausdrücken lesend und schreibend auf externe Variablen zugreifen, und auch eigene Status-Variablen implementieren.
 
@@ -142,3 +142,12 @@ Am Ende gibst du alle *filteredValues*-Elemente auf der Konsole aus.
 
 ## Für Fortgeschrittene
 Nun weisst Du wie man eine nummerierte Personenliste aus Sidequest 5A erstellen kann. Setzte dies als Closure um und teste diese aus. Gibt es auch alternative Implementierungs-Möglichkeiten für diese Closure? 
+
+## Evalution Lernende
+
+Peer-to-Peer Austausch zwischen den Lernenden (z.B. Tischnachbarn oder in Kleingruppen) 
+
+## Benötigte Software
+
+aktuelles Eclipse + JDK17 + Zeal
+

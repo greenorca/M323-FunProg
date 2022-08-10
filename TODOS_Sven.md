@@ -1,5 +1,5 @@
 umbenennen
-## Ziel --> Ziele / erwartete Lernergebnisse
+## Ziele / erwartete Lernergebnisse --> Ziele / erwartete Lernergebnisse
 
 
 ## TODO Sven:

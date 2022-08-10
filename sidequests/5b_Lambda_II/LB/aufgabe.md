@@ -8,7 +8,7 @@
 
 ## Ausgangslage
 
-## Ziel
+## Ziele / erwartete Lernergebnisse
 
 ## Auftrag
 

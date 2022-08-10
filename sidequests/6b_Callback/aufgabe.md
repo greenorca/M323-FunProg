@@ -37,7 +37,7 @@ Solche Zugriffe sind ziemlich langsam und können die eigene App blockieren. Dan
 
 Um solche lästigen Wartezeiten zu vermeiden, werden *langsame* Funktionen oft asynchron ausgeführt. Dadurch kann das Programm (und der Benutzer) weiter arbeiten. Wenn die aufgerufene Funktion fertig ist, benachrichtigt sie das Programm über ein sogenanntes *Callback*. Das ist im Grunde nichts anderes als eine Funktion innerhalb unseres Hauptprogramms, der bei Beendigung der asynchronen Funktion ausgeführt wird.
 
-## Ziel
+## Ziele / erwartete Lernergebnisse
 
 Du lernst, mit asynchronen Funktionen zu arbeiten und Callbacks zu erstellen.  
 
@@ -141,3 +141,12 @@ Dieses Codebeispiel ist eine stark vereinfachte Version zur Demonstration asynch
 
 * Wozu dienen Callbacks? <!-- dient der Benachrichtigung des Aufrufers, dass asynchrone Ablauf beendet ist -->
 * Wie kann man langsame Programmaufrufe so gestalten, dass der Programmablauf nicht blockiert wird? <!-- als asynchrone Aufrufe mittels ExecutorService -->
+
+## Evalution Lernende
+
+Peer-to-Peer Austausch zwischen den Lernenden (z.B. Tischnachbarn oder in Kleingruppen) 
+
+## Benötigte Software
+
+aktuelles Eclipse + JDK17 + Zeal
+

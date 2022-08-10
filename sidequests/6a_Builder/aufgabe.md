@@ -33,7 +33,7 @@ Unter Umständen gibt man beim Anlegen von Objekten einer Klasse unterschiedlich
 
 Würde man für jede Variante einen eigenen Konstruktor schreiben, kommen schnell dutzende Konstruktoren zusammen, und der Code wird schlecht wartbar. An dieser Stelle hilft das Builder-Pattern weiter.
 
-## Ziel
+## Ziele / erwartete Lernergebnisse
 
 Durch Anwendung des Builder-Patterns flexibel Objekte einer Klasse mit unterschiedlichen Eigenschaften erstellen.
 
@@ -68,3 +68,12 @@ Als Beispiel kann die java-StringBuilder-Klasse (Praehofer 5.1) angesehen werden
 
 * Wozu dient das Builder-Pattern?
 * Wie implementiert man das Builder-Pattern?
+
+## Evalution Lernende
+
+Peer-to-Peer Austausch zwischen den Lernenden (z.B. Tischnachbarn oder in Kleingruppen) 
+
+## Benötigte Software
+
+aktuelles Eclipse + JDK17 + Zeal
+

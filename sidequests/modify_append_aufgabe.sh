@@ -5,11 +5,11 @@ for dir in `ls -d */`; do
     echo '
 ## Evalution Lernende
 
-Peer-to-Peer Austausch zwischen einzelnen Lernenden (z.B. Tischnachbarn) 
+Peer-to-Peer Austausch zwischen den Lernenden (z.B. Tischnachbarn oder in Kleingruppen) 
 
 ## Benötigte Software
 
-Eclipse + JDK17 + Zeal
+aktuelles Eclipse + JDK17 + Zeal
 ' >> aufgabe.md
     cd ..
 done

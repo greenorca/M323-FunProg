@@ -28,7 +28,7 @@ Bislang wurden viele praktische Anwendungsgebiete der funktionalen Programmierun
 
 Das Verständnis der grundlegenden Fachbegriffe ist essentiell wichtig für die Zusammenarbeit.
 
-## Ziel
+## Ziele / erwartete Lernergebnisse
 
 Du erarbeitest mit deinen Kollegen eine Übersicht über einige Begriffe aus dem funktionalen Programmieren:
 
@@ -48,3 +48,12 @@ Konkrete Aufgabenstellungen und Anleitungen stehen in den Kursmaterialien für j
 ## Wissens-Check
 
 * siehe Fragen in den Teilaufgaben
+
+## Evalution Lernende
+
+Peer-to-Peer Austausch zwischen den Lernenden (z.B. Tischnachbarn oder in Kleingruppen) 
+
+## Benötigte Software
+
+aktuelles Eclipse + JDK17 + Zeal
+
