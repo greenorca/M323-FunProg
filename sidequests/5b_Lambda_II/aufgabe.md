@@ -31,7 +31,7 @@ Du hast bereits gelernt, funktionale Interfaces mit Lambda-Ausdrücken zu implem
 
 ## Ziel
 
-Du kannst mit innerhalb von Lambda-Ausdrücken lesend und schreibend auf externe Variablen zugreifen, und auch eigene Status-Variablen implementieren.
+Du kannst innerhalb von Lambda-Ausdrücken lesend und schreibend auf externe Variablen zugreifen, und auch eigene Status-Variablen implementieren.
 
 ## Auftrag
 
