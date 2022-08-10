@@ -11,5 +11,8 @@ Peer-to-Peer Austausch zwischen den Lernenden (z.B. Tischnachbarn oder in Kleing
 
 aktuelles Eclipse + JDK17 + Zeal
 ' >> aufgabe.md
+
+    sed -i 's/## Ziel/## Ziele \/ erwartete Lernergebnisse/g' aufgabe.md 
+
     cd ..
 done
