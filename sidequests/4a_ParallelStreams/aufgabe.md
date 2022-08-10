@@ -1,8 +1,10 @@
 # SQ4a - Parallele Verarbeitungsmöglichkeiten
 
-## Zeit
+## Zeit - 60 Minuten
 
-* 45 Minuten
+* 10 Minuten Einführung
+* 40 Minuten Bearbeitung der Aufgabe
+* 10 Minuten Besprechung
 
 ## Lernart bzw. Sozialform
 

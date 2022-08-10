@@ -1,8 +1,10 @@
 # SQ6B - Callbacks
 
-## Zeit
+## Zeit - 90 Minuten
 
-* 60 Minuten
+* 15 Minuten Einführung
+* 60 Minuten Bearbeitung der Aufgabe
+* 15 Minuten Besprechung
 
 ## Lernart bzw. Sozialform
 

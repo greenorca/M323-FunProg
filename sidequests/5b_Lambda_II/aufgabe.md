@@ -1,8 +1,10 @@
 # SQ5B - Lambda - Funktionen mit Seiteneffekten
 
-## Zeit
+## Zeit - 80 Minuten
 
-* 80 Minuten
+* 10 Minuten Einführung
+* 60 Minuten Bearbeitung der Aufgabe
+* 10 Minuten Besprechung
 
 ## Lernart bzw. Sozialform
 

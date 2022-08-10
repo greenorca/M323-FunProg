@@ -1,8 +1,10 @@
-# SQ4B - Gundbegriffe der Funktionalen Programmierung
+# SQ4B - Grundbegriffe der Funktionalen Programmierung
 
-## Zeit
+## Zeit - 90 Minuten
 
-* 45 Minuten
+* 5 Minuten Einführung
+* 30 Minuten Bearbeitung der Aufgabe
+* 25 Minuten Präsentation Ergebnisse
 
 ## Lernart bzw. Sozialform
 
