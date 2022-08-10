@@ -19,7 +19,7 @@ Du musst lediglich Unit Tests schreiben und die Funktionalität implementieren.
 
 ## Auftrag
 
-1. Importiere das Projekt in die IDE
+1. Importiere das Projekt `sq2b_lb` in die IDE
 1. Implementiere in der `NotenServiceTest`-Klasse die Unit Tests für die Service Methoden
 1. Implementiere in der `NotenService`-Klasse die Funktionalität, dass deine Unit Tests erfolgreich durchlaufen
 
