@@ -142,7 +142,7 @@ Dieses Codebeispiel ist eine stark vereinfachte Version zur Demonstration asynch
 * Wozu dienen Callbacks? <!-- dient der Benachrichtigung des Aufrufers, dass asynchrone Ablauf beendet ist -->
 * Wie kann man langsame Programmaufrufe so gestalten, dass der Programmablauf nicht blockiert wird? <!-- als asynchrone Aufrufe mittels ExecutorService -->
 
-## Evalution Lernende
+## Evaluation Lernende
 
 Peer-to-Peer Austausch zwischen den Lernenden (z.B. Tischnachbarn oder in Kleingruppen) 
 

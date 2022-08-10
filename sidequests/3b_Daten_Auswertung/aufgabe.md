@@ -69,7 +69,7 @@ public Map<String, List<Game>> getGamesByGenre(){} // gibt alle Spiele je Genre 
 _**Hinweis:**  
 Ändere nur die **Service-Klasse**. Du brauchst keine Anpassungen an der **GameDao**-Klasse vorzunehmen._
 
-## Evalution Lernende
+## Evaluation Lernende
 
 Peer-to-Peer Austausch zwischen den Lernenden (z.B. Tischnachbarn oder in Kleingruppen) 
 

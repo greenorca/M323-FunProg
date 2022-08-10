@@ -49,7 +49,7 @@ Konkrete Aufgabenstellungen und Anleitungen stehen in den Kursmaterialien für j
 
 * siehe Fragen in den Teilaufgaben
 
-## Evalution Lernende
+## Evaluation Lernende
 
 Peer-to-Peer Austausch zwischen den Lernenden (z.B. Tischnachbarn oder in Kleingruppen) 
 

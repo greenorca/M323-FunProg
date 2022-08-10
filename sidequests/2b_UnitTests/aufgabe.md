@@ -99,7 +99,7 @@ Mit UnitTests soll abgesichert werden, dass deine zuvor gemachten Arbeiten nach 
 1. Lasse die Tests durchlaufen und passe etwaige Fehler noch an
 1. Wenn alle Tests erfolgreich sind, kann man mit gutem gewissen die **LibraryService**-Klasse einsetzen. Passe die Auswertungen in der **Programm**-Klasse an, so dass dies die Methoden der **LibraryService**-Klasse verwenden (analog dem getBookCount)
 
-## Evalution Lernende
+## Evaluation Lernende
 
 Peer-to-Peer Austausch zwischen den Lernenden (z.B. Tischnachbarn oder in Kleingruppen) 
 

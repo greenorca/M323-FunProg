@@ -3,7 +3,7 @@
 for dir in `ls -d */`; do
     cd $dir
     echo '
-## Evalution Lernende
+## Evaluation Lernende
 
 Peer-to-Peer Austausch zwischen den Lernenden (z.B. Tischnachbarn oder in Kleingruppen) 
 

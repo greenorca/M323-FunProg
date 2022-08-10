@@ -109,7 +109,7 @@ System.out.println("parallel processing time: "+tDelta+" ms");
 
 <img alt="sq4a_parallelstreams-f92771ee.png" src="img/sq4a_parallelstreams-f92771ee.png" width="" height="" >
 
-## Evalution Lernende
+## Evaluation Lernende
 
 Peer-to-Peer Austausch zwischen den Lernenden (z.B. Tischnachbarn oder in Kleingruppen) 
 

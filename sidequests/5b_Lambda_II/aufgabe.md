@@ -143,7 +143,7 @@ Am Ende gibst du alle *filteredValues*-Elemente auf der Konsole aus.
 ## Für Fortgeschrittene
 Nun weisst Du wie man eine nummerierte Personenliste aus Sidequest 5A erstellen kann. Setzte dies als Closure um und teste diese aus. Gibt es auch alternative Implementierungs-Möglichkeiten für diese Closure? 
 
-## Evalution Lernende
+## Evaluation Lernende
 
 Peer-to-Peer Austausch zwischen den Lernenden (z.B. Tischnachbarn oder in Kleingruppen) 
 

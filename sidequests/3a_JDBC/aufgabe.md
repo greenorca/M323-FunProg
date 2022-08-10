@@ -68,7 +68,7 @@ ERD der Datenbank **m232_sq3a**:
 * Welche Abfolge Durchläuft der Prozess um Daten zu laden bei der Verwendung von JDBC? <!-- Verbindungsaufbau, Query Erzeugen, Query Absetzen, ResultSet auslesen -->
 * Weshalb sollten Datenbankverbindung nach beendigter Arbeit stets geschlossen werden? <!-- Es können nur eine bestimmte Anzahl vor Verbindungen gleichzeitig offen sein. Ist dieses Limit erreicht können keine neuen Verbindungen geöffnet werden und Anfragen werden fehlschlagen. -->
 
-## Evalution Lernende
+## Evaluation Lernende
 
 Peer-to-Peer Austausch zwischen den Lernenden (z.B. Tischnachbarn oder in Kleingruppen) 
 

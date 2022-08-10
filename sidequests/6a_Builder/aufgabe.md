@@ -69,7 +69,7 @@ Als Beispiel kann die java-StringBuilder-Klasse (Praehofer 5.1) angesehen werden
 * Wozu dient das Builder-Pattern?
 * Wie implementiert man das Builder-Pattern?
 
-## Evalution Lernende
+## Evaluation Lernende
 
 Peer-to-Peer Austausch zwischen den Lernenden (z.B. Tischnachbarn oder in Kleingruppen) 
 

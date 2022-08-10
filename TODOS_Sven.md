@@ -9,7 +9,7 @@ Zeiten "aufdrösseln"
 ---------------------------------------
 hinzufügen global:
 
-## Evalution Lernende
+## Evaluation Lernende
 
 Peer-to-Peer Austausch zwischen einzelnen Lernenden (z.B. Tischnachbarn) 
 

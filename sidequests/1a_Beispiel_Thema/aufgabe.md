@@ -26,7 +26,7 @@
 
 * Was ist 1+1? <!-- 2 -->
 
-## Evalution Lernende
+## Evaluation Lernende
 
 Peer-to-Peer Austausch zwischen den Lernenden (z.B. Tischnachbarn oder in Kleingruppen) 
 

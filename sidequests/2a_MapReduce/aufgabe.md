@@ -144,7 +144,7 @@ Erweitere dein Programm soweit, dass bei den folgenden Anforderungen die Auswert
 1. Gib das an welches Buch das **älteste** ist und wann es veröffentlicht wurde
 1. Gib an, in welchem Jahr **zuletzt** ein Buch veröffentlicht wurde
 
-## Evalution Lernende
+## Evaluation Lernende
 
 Peer-to-Peer Austausch zwischen den Lernenden (z.B. Tischnachbarn oder in Kleingruppen) 
 
