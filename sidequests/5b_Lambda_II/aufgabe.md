@@ -118,7 +118,13 @@ public class Lambda_Closure {
 
 ### Dein Auftrag
 
-Erstelle eine neue Klasse *SQ5B_FilterClosure* mit *main*-Funktion. In der Main-Funktion erstellst du den zu filternden Array *sourceValues* mit Int-Werten von 0 bis 100. 
+Erstelle eine neue Klasse *SQ5B_FilterClosure* mit *main*-Funktion. In der Main-Funktion erstellst du den zu filternden Array *sourceValues* mit Int-Werten von 0 bis 100: 
+
+    ```java
+    List<Integer> liste = IntStream.range(0, 100)
+    .boxed() //konvertiert die 'atomaren' ints in Integer-Objekte 
+    .collect(Collectors.toList());`
+    ```
 
 Weiterhin erstellst Du in der *main* eine ArrayListe *filteredValues* für Integer-Werte.
 

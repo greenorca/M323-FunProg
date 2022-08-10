@@ -26,6 +26,7 @@
 
 1. Praehofer "Funktionale Programmierung" Kapitel 5.1
 2. [https://java-design-patterns.com/patterns/builder/](https://java-design-patterns.com/patterns/builder/)
+3. https://www.baeldung.com/java-optional (für den eleganten Umgang mit optionalen Attributen)
 
 ## Ausgangslage
 
@@ -56,10 +57,10 @@ Dann erstellt ihr ein kleines Java-Projekt *M323_BuilderPattern* mit folgender F
 * Prüfe die Funktionalität, in dem Du die folgenden Flugzeug-Objekte in einer *public static void main*-Funktion erstellst:
   - "Cesna 172" mit 2 Besatzung,  736kg, 302km/h und 1270km Reichweite
   - "Airbus A300" mit 2 Besatzung, 266 Passagiere, 78200kg Leergewicht
-* Zusatz: Teste deinen Code mit geeigneten JUnit-Tests
+* Zusatz für Fortgeschrittene: Teste deinen Code mit geeigneten JUnit-Tests
 
 
-Als Beispiel kann die java-StringBuilder-Klasse (Praehofer 5.1) angesehen werden.
+Als Beispiel kann die java-StringBuilder-Klasse (Praehofer 5.1) angesehen werden. Damit bei den optionalen Attributen nicht mit Null-Pointer oder Excetions programmiert werden muss, ist es ein eleganter Weg dies mit der Klasse Optional zu tun (evtl. nur für Fortgeschrittene).
 
 ## Wissens-Check
 

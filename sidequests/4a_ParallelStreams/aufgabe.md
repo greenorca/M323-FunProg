@@ -44,7 +44,8 @@
   - Naiver Ansatz: Liste von gegnerischen Raumschiffen durchlaufen und alle Raumschiffe mit energy <= 0 entfernen) --> Seiteneffekt, der Array selbst wird verändert.
   - Besser: alle Raumschiffe mit energy > 0 in neuen Array kopieren, und zum Schluss alten durch neuen Array ersetzen
 * sequentielle vs. parallele Bearbeitung: teile und herrsche -> lange Listen aufsplitten und mit mehreren Threads die Teil-Listen parallel durchsuchen
-* Speed-up, Stolpersteine (geht nur mit Pure Functions)
+* Speed-up
+* Stolpersteine wie Synchronisation der Abläufe oder Zusammenfassung der Teilergebnisse
 
 
 
