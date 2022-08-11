@@ -1,6 +1,6 @@
-# SQ1A - Titel
+# SQ2B - Unit-Tests
 
-## Zeit - 15 Minuten
+## Richtzeit - 15 Minuten
 
 ## HANOKs
 
