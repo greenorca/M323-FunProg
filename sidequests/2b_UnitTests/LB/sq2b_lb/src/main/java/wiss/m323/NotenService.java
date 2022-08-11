@@ -31,7 +31,7 @@ public class NotenService implements INotenService {
 	}
 
 	@Override
-	public List<Note> hole5Besten() {
+	public List<Note> hole3Besten() {
 
 		// TODO: verfasse hier den funktionalen Code
 

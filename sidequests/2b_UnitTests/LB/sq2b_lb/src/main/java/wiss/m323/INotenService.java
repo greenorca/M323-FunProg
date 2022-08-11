@@ -11,11 +11,11 @@ import java.util.List;
 public interface INotenService {
 
 	/**
-	 * Gibt die 5 besten Noten zurueck.
+	 * Gibt die 3 besten Noten zurueck.
 	 * 
-	 * @return Liste mit den 5 besten Noten;
+	 * @return Liste mit den 3 besten Noten;
 	 */
-	List<Note> hole5Besten();
+	List<Note> hole3Besten();
 
 	/**
 	 * Gibt alle Noten unterhalb eines bestimmten Wertes (dieser ausgeschlossen)
