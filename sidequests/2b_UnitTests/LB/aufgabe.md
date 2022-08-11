@@ -1,4 +1,4 @@
-# SQ1A - Titel
+# SQ2B - Unit Tests
 
 ## Zeit - 15 Minuten
 
@@ -10,7 +10,7 @@
 
 Es soll ein NotenService implementiert werden welcher folgende 3 Anwendungsfälle abdeckt:
 
-* die 5 Besten Noten zurückgeben
+* die 3 Besten Noten zurückgeben
 * alle Noten schlechter als einen gewissen Wert zurückgeben
 * Durchschnitt aller Noten zurückgeben
 
@@ -27,8 +27,8 @@ Du musst lediglich Unit Tests schreiben und die Funktionalität implementieren.
 
 ||Punkte|
 |--:|---|
-|`hole5Besten`-Methode ist korrekt implementiert| 3 Punkte|
-|Unit Test für `hole5Besten` ist sinnvoll implementiert|2 Punkte|
+|`hole3Besten`-Methode ist korrekt implementiert| 3 Punkte|
+|Unit Test für `hole3Besten` ist sinnvoll implementiert|3 Punkte|
 |`holeNotenSchlechterAls` ist korrekt implementiert| 2 Punkte|
 |Unit Test für `holeNotenSchlechterAls` ist sinnvoll implementiert|2 Punkte|
 |`holeDurchschnitt` ist korrekt implementiert|2 Punkte|

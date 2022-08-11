@@ -27,7 +27,7 @@ public class NotenServiceTest {
 	}
 
 	@Test
-	public void givenNotenwert4_whenholeNotenSchlechterAls_returns9Noten() {
+	public void givenNotenwert4_whenHoleNotenSchlechterAls_returns2Noten() {
 		fail("Not implemented yet");
 	}
 
