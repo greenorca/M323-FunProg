@@ -47,6 +47,7 @@ Du lernst, mit asynchronen Funktionen zu arbeiten und Callbacks zu erstellen.
 
 1. Erstelle ein neues Java-Projekt *SQ5B_Callback*
 1. Erstelle eine neue Klasse *Task* mit einem `Optional<Integer>`-Attribut *result* und der folgenden absichtlich langsam arbeitenden Funktion:
+
     ```java
     public void slowSum(int a , int b) {
       try {
@@ -58,7 +59,9 @@ Du lernst, mit asynchronen Funktionen zu arbeiten und Callbacks zu erstellen.
       }
     }
     ```
+
 1. Erstelle zudem eine Hauptklasse *Demo* mit der folgenden *main* Methode zum Demonstrieren eines blockierenden Aufrufs:
+
     ```java
     public static void main(String[] args) {
       int a = 1, b = 2;
@@ -69,6 +72,7 @@ Du lernst, mit asynchronen Funktionen zu arbeiten und Callbacks zu erstellen.
   	}
     ```
     Analysiere den Code. Was genau passiert hier? <!-- das Programm blockiert, bis die Berechnung fertig ist -->
+
 1. Nun verpacken wir den Aufruf der  Berechnungsfunktion in einen *asynchronen Programmaufruf*. Dazu nutzen wir die `ExecutorService`-Klasse, und verpacken die eigentliche Berechnung in ein *Runnable*-Objekt:
 
     ```java
@@ -96,6 +100,7 @@ Du lernst, mit asynchronen Funktionen zu arbeiten und Callbacks zu erstellen.
     }
     ```
     Wie du siehst, läuft das Hauptprogramm weiter, während die Berechnung im Gange ist.
+
 1. Nun kommt das Sahnehäubchen - wir wollen im Hauptprogramm benachrichtigt werden, wenn die Berechnung fertig ist. Das erledigen wir über ein sogenanntes *Callback*-Interface:
 
     ```java
