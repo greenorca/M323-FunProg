@@ -1,14 +1,17 @@
 # SQ6A - Builder-Pattern
 
-## Zeit
+## Richtzeit
 
 * 25 Minuten
 
 ## Punkte
 
-* 22
+* 22 Punkte
 
 ## HANOKs
+
+2.2 Kennt funktionale Programmierkonzepte (z.B. Filter-Map-Reduce) und passende Entwurfsmuster (z.B. Builder-Pattern). 
+
 
 ## Ausgangslage
 
@@ -64,3 +67,16 @@ public class LB_SQ6A_Friend {
  
 
 ## Bewertungsraster
+
+| Teilaufgabe | Punkte  |
+|-------|------- |
+| LB_SQ6A_Friend Klasse nach Vorgabe erstellen | 1  |
+| LB_SQ6A_FriendBuilder Klasse nach Vorgabe erstellen | 2  |
+| Konstruktor LB_SQ6A_FriendBuilder erstellen | 3  |
+| weitere Builder-Funktionen implementieren | 6  |
+| build-Funktion erstellen  | 2  |
+| Konstruktor für LB_SQ6A_Friend Klasse erweitern | 2  |
+| Objekt erstellen mit Builder | 4  |
+| Ausgabe der Objekte | 2  |
+| | |
+| **Summe** | **22** |

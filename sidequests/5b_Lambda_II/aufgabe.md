@@ -1,8 +1,10 @@
 # SQ5B - Lambda - Funktionen mit Seiteneffekten
 
-## Zeit
+## Zeit - 80 Minuten
 
-* 80 Minuten
+* 10 Minuten Einführung
+* 60 Minuten Bearbeitung der Aufgabe
+* 10 Minuten Besprechung
 
 ## Lernart bzw. Sozialform
 
@@ -18,7 +20,7 @@
 
 ## Einführung LP in das Basiswissen
 
-
+* kann anhand der Tutorial-artigen Aufgabenstellung durchgeführt werden
 
 ## Literatur zum Thema
 
@@ -29,14 +31,14 @@
 
 Du hast bereits gelernt, funktionale Interfaces mit Lambda-Ausdrücken zu implementieren. Dabei wurde bisher auf *pure functions* ohne Seiteneffekte und ohne freie Variablen geachtet. In diesem Sidequest lernst Du, auch Funktionale Interfaces mit gewünschten bzw. erforderlichen  Seiteneffekten zu implementieren.
 
-## Ziel
+## Ziele / erwartete Lernergebnisse
 
 Du kannst innerhalb von Lambda-Ausdrücken lesend und schreibend auf externe Variablen zugreifen, und auch eigene Status-Variablen implementieren.
 
 ## Auftrag
 
 
-Im nächsten Beispiel soll ein Programm in einem ersten Schritt prüfen, ob eine Zahl duch 2 geteilt werden kann. In einem weiteren Schritt möchtem man dann zum Bsp. den Teiler schrittweise erhöhen, um zu prüfen ob die Zahl auch durch 3,4,5... teilbar wäre. Analysiere dazu die folgenden Codeausschnitte:
+Im nächsten Beispiel soll ein Programm in einem ersten Schritt prüfen, ob eine Zahl durch 2 geteilt werden kann. In einem weiteren Schritt möchte man dann zum Bsp. den Teiler schrittweise erhöhen, um zu prüfen ob die Zahl auch durch 3,4,5... teilbar wäre. Analysiere dazu die folgenden Codeausschnitte:
 
 ### Lesender Zugriff auf freie Variablen
 
@@ -120,11 +122,11 @@ public class Lambda_Closure {
 
 Erstelle eine neue Klasse *SQ5B_FilterClosure* mit *main*-Funktion. In der Main-Funktion erstellst du den zu filternden Array *sourceValues* mit Int-Werten von 0 bis 100: 
 
-    ```java
-    List<Integer> liste = IntStream.range(0, 100)
-    .boxed() //konvertiert die 'atomaren' ints in Integer-Objekte 
-    .collect(Collectors.toList());`
-    ```
+```java
+List<Integer> liste = IntStream.range(0, 100)
+.boxed() //konvertiert die 'atomaren' ints in Integer-Objekte 
+.collect(Collectors.toList());`
+```
 
 Weiterhin erstellst Du in der *main* eine ArrayListe *filteredValues* für Integer-Werte.
 
@@ -142,3 +144,12 @@ Am Ende gibst du alle *filteredValues*-Elemente auf der Konsole aus.
 
 ## Für Fortgeschrittene
 Nun weisst Du wie man eine nummerierte Personenliste aus Sidequest 5A erstellen kann. Setzte dies als Closure um und teste diese aus. Gibt es auch alternative Implementierungs-Möglichkeiten für diese Closure? 
+
+## Evaluation Lernende
+
+Peer-to-Peer Austausch zwischen den Lernenden (z.B. Tischnachbarn oder in Kleingruppen) 
+
+## Benötigte Software
+
+aktuelles Eclipse + JDK17 + Zeal
+

@@ -44,7 +44,7 @@ Die Auswertung der Datenbank soll bei der EduGames AG mehr über Programmcode al
 
 Im Unterrichtsmaterial findest du ein vorgefertigtes Projekt samt SQL-Script für die Datenbank samt Daten. Dieses Programm gilt es nun so zu erweitern, dass damit Auswertungen via Programmcode getätigt werden können.
 
-## Ziel
+## Ziele / erwartete Lernergebnisse
 
 * Deine Applikation wertet Daten aus Datenbank aus ohne mit SQL-Statements zu arbeiten
 * Du hast funktionale Methoden in deinem Programm eingesetzt
@@ -68,3 +68,12 @@ public Map<String, List<Game>> getGamesByGenre(){} // gibt alle Spiele je Genre 
 
 _**Hinweis:**  
 Ändere nur die **Service-Klasse**. Du brauchst keine Anpassungen an der **GameDao**-Klasse vorzunehmen._
+
+## Evaluation Lernende
+
+Peer-to-Peer Austausch zwischen den Lernenden (z.B. Tischnachbarn oder in Kleingruppen) 
+
+## Benötigte Software
+
+aktuelles Eclipse + JDK17 + Zeal
+

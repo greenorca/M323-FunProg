@@ -1,8 +1,10 @@
-# SQ4B - Gundbegriffe der Funktionalen Programmierung
+# SQ4B - Grundbegriffe der Funktionalen Programmierung
 
-## Zeit
+## Zeit - 90 Minuten
 
-* 45 Minuten
+* 5 Minuten Einführung
+* 30 Minuten Bearbeitung der Aufgabe
+* 25 Minuten Präsentation Ergebnisse
 
 ## Lernart bzw. Sozialform
 
@@ -28,7 +30,7 @@ Bislang wurden viele praktische Anwendungsgebiete der funktionalen Programmierun
 
 Das Verständnis der grundlegenden Fachbegriffe ist essentiell wichtig für die Zusammenarbeit.
 
-## Ziel
+## Ziele / erwartete Lernergebnisse
 
 Du erarbeitest mit deinen Kollegen eine Übersicht über einige Begriffe aus dem funktionalen Programmieren:
 
@@ -48,3 +50,12 @@ Konkrete Aufgabenstellungen und Anleitungen stehen in den Kursmaterialien für j
 ## Wissens-Check
 
 * siehe Fragen in den Teilaufgaben
+
+## Evaluation Lernende
+
+Peer-to-Peer Austausch zwischen den Lernenden (z.B. Tischnachbarn oder in Kleingruppen) 
+
+## Benötigte Software
+
+aktuelles Eclipse + JDK17 + Zeal
+

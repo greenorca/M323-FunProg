@@ -1,6 +1,6 @@
-# SQ2B - Unit Tests
+# SQ2B - Unit-Tests
 
-## Zeit - 15 Minuten
+## Richtzeit - 15 Minuten
 
 ## HANOKs
 
@@ -8,18 +8,18 @@
 
 ## Ausgangslage
 
-Es soll ein NotenService implementiert werden welcher folgende 3 Anwendungsfälle abdeckt:
+Die bereits erstellte Klasse *NotenService* deckt folgende 3 Anwendungsfälle ab:
 
 * die 3 Besten Noten zurückgeben
 * alle Noten schlechter als einen gewissen Wert zurückgeben
 * Durchschnitt aller Noten zurückgeben
 
 Im Projekt `sq2b_lb` sind alle Klassen schon für dich vorbereitet.
-Du musst lediglich Unit Tests schreiben und die Funktionalität implementieren.
+Du erstellst die Unit-Tests in der vorbereiteten *NotenServiceTest*-Klasse zum Überprüfen der Funktionalität der *NotenService*-Klasse.
 
 ## Auftrag
 
-1. Importiere das Projekt in die IDE
+1. Importiere das Projekt `sq2b_lb` in die IDE
 1. Implementiere in der `NotenServiceTest`-Klasse die Unit Tests für die Service Methoden
 1. Implementiere in der `NotenService`-Klasse die Funktionalität, dass deine Unit Tests erfolgreich durchlaufen
 

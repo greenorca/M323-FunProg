@@ -18,10 +18,19 @@
 
 ## Ausgangslage
 
-## Ziel
+## Ziele / erwartete Lernergebnisse
 
 ## Auftrag
 
 ## Wissens-Check
 
 * Was ist 1+1? <!-- 2 -->
+
+## Evaluation Lernende
+
+Peer-to-Peer Austausch zwischen den Lernenden (z.B. Tischnachbarn oder in Kleingruppen) 
+
+## Benötigte Software
+
+aktuelles Eclipse + JDK17 + Zeal
+

@@ -1,8 +1,10 @@
 # SQ6B - Callbacks
 
-## Zeit
+## Zeit - 90 Minuten
 
-* 60 Minuten
+* 15 Minuten Einführung
+* 60 Minuten Bearbeitung der Aufgabe
+* 15 Minuten Besprechung
 
 ## Lernart bzw. Sozialform
 
@@ -25,19 +27,19 @@ Die Aufgabenstellung kann gemeinsam im Tutorial-Stil durchgearbeitet werden.
 ## Literatur zum Thema
 
 1. Praehofer "Funktionale Programmierung" Kapitel 9
-2. https://www.tutorialspoint.com/Callback-using-Interfaces-in-Java
+2. [https://www.tutorialspoint.com/Callback-using-Interfaces-in-Java](https://www.tutorialspoint.com/Callback-using-Interfaces-in-Java)
 3. [https://java-design-patterns.com/patterns/callback/](https://java-design-patterns.com/patterns/callback/)
 4. [https://www.baeldung.com/java-executor-service-tutorial](https://www.baeldung.com/java-executor-service-tutorial)
 
 ## Ausgangslage
 
-Programme (und auch Webseiten) zeigen häufig Daten von externe Diensten an (z.b. Datenbanken, externe REST-Schnittstellen etc.).
+Programme (und auch Webseiten) zeigen häufig Daten von externen Diensten an (z.b. Datenbanken, externe REST-Schnittstellen etc.).
 
 Solche Zugriffe sind ziemlich langsam und können die eigene App blockieren. Dann muss der Benutzer lange warten, bis er weiter arbeiten kann.
 
 Um solche lästigen Wartezeiten zu vermeiden, werden *langsame* Funktionen oft asynchron ausgeführt. Dadurch kann das Programm (und der Benutzer) weiter arbeiten. Wenn die aufgerufene Funktion fertig ist, benachrichtigt sie das Programm über ein sogenanntes *Callback*. Das ist im Grunde nichts anderes als eine Funktion innerhalb unseres Hauptprogramms, der bei Beendigung der asynchronen Funktion ausgeführt wird.
 
-## Ziel
+## Ziele / erwartete Lernergebnisse
 
 Du lernst, mit asynchronen Funktionen zu arbeiten und Callbacks zu erstellen.  
 
@@ -45,6 +47,7 @@ Du lernst, mit asynchronen Funktionen zu arbeiten und Callbacks zu erstellen.
 
 1. Erstelle ein neues Java-Projekt *SQ5B_Callback*
 1. Erstelle eine neue Klasse *Task* mit einem `Optional<Integer>`-Attribut *result* und der folgenden absichtlich langsam arbeitenden Funktion:
+
     ```java
     public void slowSum(int a , int b) {
       try {
@@ -56,7 +59,9 @@ Du lernst, mit asynchronen Funktionen zu arbeiten und Callbacks zu erstellen.
       }
     }
     ```
+
 1. Erstelle zudem eine Hauptklasse *Demo* mit der folgenden *main* Methode zum Demonstrieren eines blockierenden Aufrufs:
+
     ```java
     public static void main(String[] args) {
       int a = 1, b = 2;
@@ -67,6 +72,7 @@ Du lernst, mit asynchronen Funktionen zu arbeiten und Callbacks zu erstellen.
   	}
     ```
     Analysiere den Code. Was genau passiert hier? <!-- das Programm blockiert, bis die Berechnung fertig ist -->
+
 1. Nun verpacken wir den Aufruf der  Berechnungsfunktion in einen *asynchronen Programmaufruf*. Dazu nutzen wir die `ExecutorService`-Klasse, und verpacken die eigentliche Berechnung in ein *Runnable*-Objekt:
 
     ```java
@@ -94,6 +100,7 @@ Du lernst, mit asynchronen Funktionen zu arbeiten und Callbacks zu erstellen.
     }
     ```
     Wie du siehst, läuft das Hauptprogramm weiter, während die Berechnung im Gange ist.
+
 1. Nun kommt das Sahnehäubchen - wir wollen im Hauptprogramm benachrichtigt werden, wenn die Berechnung fertig ist. Das erledigen wir über ein sogenanntes *Callback*-Interface:
 
     ```java
@@ -102,7 +109,9 @@ Du lernst, mit asynchronen Funktionen zu arbeiten und Callbacks zu erstellen.
       public void call();
     }
     ```
+
     Wie du siehst, ist das wieder ein funktionales Interface. Dieses Interface definieren wir als zusätzlichen Parameter callMe in unserer Berechnungsfunktion der Klasse *Task*-Klasse und rufen es mit callMe.call() auf, sobald die Berechnung fertig ist:
+    
     ```java
     public void slowSum(int a , int b, Callback callMe) {
       try {
@@ -118,7 +127,9 @@ Du lernst, mit asynchronen Funktionen zu arbeiten und Callbacks zu erstellen.
       }
     }
     ```
+    
     Jetzt können wir beim Aufruf der *slowSum*-Funktion in unserer **main* ein Callback-Objekt (als Lambda-Ausdruck) übergeben, mit dem wir das fertige Ergebnis abholen:
+    
     ```Java
     exServer.execute(()->{
       task.slowSum(a, b,
@@ -135,6 +146,14 @@ Dieses Codebeispiel ist eine stark vereinfachte Version zur Demonstration asynch
 
 ## Wissens-Check
 
-* Wozu dienen Callbacks?
-<!-- dient der Benachrichtigung des Aufrufers, dass asynchrone Ablauf beendet ist -->
+* Wozu dienen Callbacks? <!-- dient der Benachrichtigung des Aufrufers, dass asynchrone Ablauf beendet ist -->
 * Wie kann man langsame Programmaufrufe so gestalten, dass der Programmablauf nicht blockiert wird? <!-- als asynchrone Aufrufe mittels ExecutorService -->
+
+## Evaluation Lernende
+
+Peer-to-Peer Austausch zwischen den Lernenden (z.B. Tischnachbarn oder in Kleingruppen) 
+
+## Benötigte Software
+
+aktuelles Eclipse + JDK17 + Zeal
+

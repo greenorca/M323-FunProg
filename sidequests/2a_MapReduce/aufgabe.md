@@ -124,7 +124,7 @@ int durchschnittsAlter = users.stream()
 
 Du hast das Projekt aus dem Unterrichtsmaterial in deine IDE importiert und dieses konnte erfolgreich ausgeführt werden.
 
-## Ziel
+## Ziele / erwartete Lernergebnisse
 
 Die Applikation soll so erweitert werden, dass mittels gängiger funktionaler Befehle einfache Auswertungen gemacht werden.
 
@@ -143,3 +143,12 @@ Erweitere dein Programm soweit, dass bei den folgenden Anforderungen die Auswert
 1. Gib an **wie viele Kopien** der Bücher, welche _zwischen den Jahren 1990 & 2000_ veröffentlicht wurden, abgesetzt wurden
 1. Gib das an welches Buch das **älteste** ist und wann es veröffentlicht wurde
 1. Gib an, in welchem Jahr **zuletzt** ein Buch veröffentlicht wurde
+
+## Evaluation Lernende
+
+Peer-to-Peer Austausch zwischen den Lernenden (z.B. Tischnachbarn oder in Kleingruppen) 
+
+## Benötigte Software
+
+aktuelles Eclipse + JDK17 + Zeal
+

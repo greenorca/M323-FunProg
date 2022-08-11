@@ -85,7 +85,7 @@ Für diese Aufgabe wurde der Lösungsvorschlag aus dem vorherigen Sidequest leic
 
 Zum leichteren Einstieg wurde in der **LibraryServiceTest**-Klasse bereits ein Test für das Zählen der Bibliothekseinträge implementiert. Dies wird neu über die Methode **getBookCount** über den **LibraryService** bereitgestellt. Der entsprechende Aufruf wurde im Programm ebenfalls angepasst und kommentiert (siehe **Programm.java**).
 
-## Ziel
+## Ziele / erwartete Lernergebnisse
 
 Mit UnitTests soll abgesichert werden, dass deine zuvor gemachten Arbeiten nach der Migration ein erwartetes Ergebnis liefern. Gewollt ist auch der Nebeneffekt, dass bei allfälliger Änderungen deiner Implementierungen die UnitTests fehlschlagen und somit die Veränderung erkannt wird.
 
@@ -98,3 +98,12 @@ Mit UnitTests soll abgesichert werden, dass deine zuvor gemachten Arbeiten nach 
 1. Sobald du alle Testmethoden verfasst hast, **übertrage** die Auswertungen aus der **Programm**-Klasse in ihre jeweilige Methode der **LibraryService**-Klasse
 1. Lasse die Tests durchlaufen und passe etwaige Fehler noch an
 1. Wenn alle Tests erfolgreich sind, kann man mit gutem gewissen die **LibraryService**-Klasse einsetzen. Passe die Auswertungen in der **Programm**-Klasse an, so dass dies die Methoden der **LibraryService**-Klasse verwenden (analog dem getBookCount)
+
+## Evaluation Lernende
+
+Peer-to-Peer Austausch zwischen den Lernenden (z.B. Tischnachbarn oder in Kleingruppen) 
+
+## Benötigte Software
+
+aktuelles Eclipse + JDK17 + Zeal
+

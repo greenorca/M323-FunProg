@@ -1,8 +1,10 @@
 # SQ4a - Parallele Verarbeitungsmöglichkeiten
 
-## Zeit
+## Zeit - 60 Minuten
 
-* 45 Minuten
+* 10 Minuten Einführung
+* 40 Minuten Bearbeitung der Aufgabe
+* 10 Minuten Besprechung
 
 ## Lernart bzw. Sozialform
 
@@ -59,7 +61,7 @@
 
 Lange Datenstrukturen lassen sich unter Umständen deutlich schneller bearbeiten, wenn man sie in Häppchen aufteilt und parallel verarbeitet.
 
-## Ziel
+## Ziele / erwartete Lernergebnisse
 
 Du kannst Datenstrukturen parallel verarbeiten und den Zeitgewinn gegenüber der sequentiellen Verarbeitung messen.
 
@@ -108,3 +110,12 @@ System.out.println("parallel processing time: "+tDelta+" ms");
 -->
 
 <img alt="sq4a_parallelstreams-f92771ee.png" src="img/sq4a_parallelstreams-f92771ee.png" width="" height="" >
+
+## Evaluation Lernende
+
+Peer-to-Peer Austausch zwischen den Lernenden (z.B. Tischnachbarn oder in Kleingruppen) 
+
+## Benötigte Software
+
+aktuelles Eclipse + JDK17 + Zeal
+
