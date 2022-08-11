@@ -20,7 +20,7 @@
 
 ## Einführung LP in das Basiswissen
 
-
+* kann anhand der Tutorial-artigen Aufgabenstellung durchgeführt werden
 
 ## Literatur zum Thema
 

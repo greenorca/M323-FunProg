@@ -1,6 +1,6 @@
 # SQ4A - Parallele Bearbeitung
 
-## Zeit
+## Richtzeit
 
 * 20 Minuten
 
@@ -46,3 +46,14 @@ Erstelle im LB-Projekt eine neue Klasse `LB_SQ4A` und implementiere die folgende
 2. Miss die Verarbeitungszeiten (z.B. mit der `Calendar`-Klasse) für die sequentielle und die parallele Routine und gib die Ergebnisse auf der Konsole aus. (2 Punkte)
 
 ## Bewertungsraster
+
+| Teilaufgabe | Punkte  |
+|-------|------- |
+| Teil 1: Theoriefragen | 4  |
+| Teil 2 |   |
+| Zahlen-Variable erstellen | 1  |
+| Filtern und Summieren | 2  |
+| Paralleles Filtern und Summieren | 3  |
+| Verarbeitungszeit messen | 2  |
+|  |   |
+| Summe | 12 |

@@ -1,6 +1,6 @@
 # SQ4B - Begriffe und Konzepte
 
-## Zeit
+## Richtzeit
 
 * 20 Minuten
 
@@ -44,4 +44,14 @@ Erstelle im LB-Projekt eine neue Klasse `LB_SQ4B` und implementiere die folgende
 
 
 ## Bewertungsraster
+
+| Teilaufgabe | Punkte  |
+|-------|------- |
+| Teil 1: Theoriefragen | 8  |
+| Teil 2 |   |
+| Function-Objekt erstellen | 3  |
+| Function-Objekt testen | 2  |
+| Optional erstellen | 3  |
+|  |   |
+| Summe | 16 |
 
