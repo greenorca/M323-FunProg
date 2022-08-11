@@ -8,14 +8,14 @@
 
 ## Ausgangslage
 
-Es soll ein NotenService implementiert werden welcher folgende 3 Anwendungsfälle abdeckt:
+Die bereits erstellte Klasse *NotenService* deckt folgende 3 Anwendungsfälle ab:
 
 * die 5 Besten Noten zurückgeben
 * alle Noten schlechter als einen gewissen Wert zurückgeben
 * Durchschnitt aller Noten zurückgeben
 
 Im Projekt `sq2b_lb` sind alle Klassen schon für dich vorbereitet.
-Du musst lediglich Unit Tests schreiben und die Funktionalität implementieren.
+Du erstellst die Unit-Tests in der vorbereiteten *NotenServiceTest*-Klasse zum Überprüfen der Funktionalität der *NotenService*-Klasse.
 
 ## Auftrag
 
