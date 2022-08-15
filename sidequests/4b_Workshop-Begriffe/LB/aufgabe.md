@@ -36,7 +36,8 @@ Beantworte die folgenden Fragen stichpunktartig:
 
 ### 2. Praktische Umsetzung
 
-Erstelle im LB-Projekt eine neue Klasse `LB_SQ4B` und implementiere die folgenden Anforderungen in der `public static void main(String[] args)`:
+1. Erstelle das Projekt `sq4b_lb` mit einer neue Klasse `LB_SQ4B`. Darin implementierst du die folgenden Anforderungen in der `public static void main(String[] args)`:
+
 
 1. Implementiere das java.util.Function-Interface so, dass ein übergebener Integer-Wert verdoppelt zurück gegeben wird. Dieses Function-Objekt speicherst du unter dem Namen *myDoubleFun* ab. (3 Punkte)
 2. Prüfe die korrekte Funktionalität des *myDoubleFun*-Objekts. Dazu übergibst Du den Wert 2 und gibst das Ergebnis auf der Console aus. (2 Punkte)

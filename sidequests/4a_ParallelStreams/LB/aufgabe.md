@@ -38,8 +38,7 @@ Beantworte die folgenden Fragen in Stichpunkten:
 ```
 ### 2. Praktische Umsetzung
 
-Erstelle im LB-Projekt eine neue Klasse `LB_SQ4A` und implementiere die folgenden Anforderungen in der `public static void main(String[] args)`:
-
+1. Erstelle das Projekt `sq4a_lb` mit einer neue Klasse `LB_SQ4A`. Darin implementierst du die folgenden Anforderungen in der `public static void main(String[] args)`:
 1. Erstelle eine geeignete Variable *zahlen* mit den ganzen Zahlen vom 1 bis 5.000.000. (1 Punkt)
 2. Summiere nur die ungeraden Zahlen dieser Liste sequentiell und gib das Ergebnis auf der Konsole aus. Die Summe muss als *long* Variable erstellt werden. (2 Punkte)
 2. Summiere nur die ungeraden Zahlen dieser Liste *mit paralleler Verarbeitung* und gib das Ergebnis auf der Konsole aus. Die Summe muss als *long* Variable erstellt werden. (3 Punkte)
