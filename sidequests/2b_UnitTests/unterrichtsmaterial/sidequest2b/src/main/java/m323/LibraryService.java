@@ -1,8 +1,8 @@
-package m323sq2b;
+package m323;
 
 import java.util.List;
 
-import m323sq2b.model.Book;
+import m323.model.Book;
 
 /**
  * Diese Klasse standardisiert die Zugriffe auf die Bibliothek via
@@ -20,17 +20,17 @@ public class LibraryService {
 
 	/**
 	 * Diese Methode erlaubt den direkten Zugriff auf die im Service registrierten
-	 * Bücher.
+	 * Bï¿½cher.
 	 * 
-	 * @return Liste mit Büchern
+	 * @return Liste mit Bï¿½chern
 	 */
 	public List<Book> getBooks() {
 		return books;
 	}
 
 	/**
-	 * Diese Methode zählt die Bücher in der Bibliothek und gibt den entsprechenden Wert zurück.
-	 * @return Anzahl Bücher in der Bibliothek
+	 * Diese Methode zï¿½hlt die Bï¿½cher in der Bibliothek und gibt den entsprechenden Wert zurï¿½ck.
+	 * @return Anzahl Bï¿½cher in der Bibliothek
 	 */
 	public long getBookCount() {
 		return books.stream().count();

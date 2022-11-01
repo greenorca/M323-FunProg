@@ -1,4 +1,4 @@
-package m323sq2b;
+package m323;
 
 import static org.junit.jupiter.api.Assertions.*;
 
@@ -8,7 +8,7 @@ import java.util.stream.Stream;
 
 import org.junit.jupiter.api.Test;
 
-import m323sq2b.model.Book;
+import m323.model.Book;
 
 class LibraryServiceTest {
 
