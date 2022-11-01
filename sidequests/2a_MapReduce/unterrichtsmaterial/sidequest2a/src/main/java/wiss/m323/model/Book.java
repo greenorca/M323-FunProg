@@ -1,7 +1,7 @@
-package m323sq2a.model;
+package wiss.m323.model;
 
 /**
- * Modelklasse für Buch Objekte. Diese enthält Titel, Author, Veröffentlichungsdatum sowie
+ * Modelklasse fï¿½r Buch Objekte. Diese enthï¿½lt Titel, Author, Verï¿½ffentlichungsdatum sowie
  * Anzahl verkaufter Kopien (in Millionen)
  * 
  * @author Patrick Meier

@@ -1,11 +1,11 @@
-package m323sq2a;
+package wiss.m323;
 
 import java.util.ArrayList;
 import java.util.List;
 import java.util.stream.Collectors;
 
-import m323sq2a.model.Book;
-import m323sq2a.model.Library;
+import wiss.m323.model.Book;
+import wiss.m323.model.Library;
 
 /**
  * Ausfuehrendes Programm des Projektes
@@ -17,11 +17,11 @@ public class Programm {
 
 	public static void main(String[] args) {
 
-		System.out.println("\nAnpassung der Einträge der Bibliothek mittels for-Schleife");
+		System.out.println("\nAnpassung der Eintrï¿½ge der Bibliothek mittels for-Schleife");
 		List<Book> standardBooks = standardUpper(Library.getBooks());
 		standardBooks.forEach(b -> System.out.println(b.getTitle() + " (" + b.getReleaseYear() + ")"));
 
-		System.out.println("\nAnpassung der Einträge der Bibliothek mittels funktionaler Befehle");
+		System.out.println("\nAnpassung der Eintrï¿½ge der Bibliothek mittels funktionaler Befehle");
 		List<Book> mappedBooks = mapUpper(Library.getBooks());
 		mappedBooks.forEach(b -> System.out.println(b.getTitle() + " (" + b.getReleaseYear() + ")"));
 	}
