@@ -70,9 +70,8 @@ ERD der Datenbank **m232_sq3a**:
 
 ## Evaluation Lernende
 
-Peer-to-Peer Austausch zwischen den Lernenden (z.B. Tischnachbarn oder in Kleingruppen) 
+Peer-to-Peer Austausch zwischen den Lernenden (z.B. Tischnachbarn oder in Kleingruppen)
 
 ## Benötigte Software
 
 aktuelles Eclipse + JDK17 + Zeal
-
