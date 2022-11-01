@@ -1,4 +1,4 @@
-package wiss.m323.model;
+package m323.model;
 
 import java.util.ArrayList;
 import java.util.List;

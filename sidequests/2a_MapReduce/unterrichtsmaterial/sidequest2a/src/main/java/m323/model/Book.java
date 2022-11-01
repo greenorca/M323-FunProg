@@ -1,4 +1,4 @@
-package wiss.m323.model;
+package m323.model;
 
 /**
  * Modelklasse f�r Buch Objekte. Diese enth�lt Titel, Author, Ver�ffentlichungsdatum sowie

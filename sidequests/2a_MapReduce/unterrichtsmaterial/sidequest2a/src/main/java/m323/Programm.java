@@ -1,11 +1,11 @@
-package wiss.m323;
+package m323;
 
 import java.util.ArrayList;
 import java.util.List;
 import java.util.stream.Collectors;
 
-import wiss.m323.model.Book;
-import wiss.m323.model.Library;
+import m323.model.Book;
+import m323.model.Library;
 
 /**
  * Ausfuehrendes Programm des Projektes
