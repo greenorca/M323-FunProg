@@ -1,7 +1,7 @@
-package m323sq2b;
+package m323;
 
-import m323sq2b.model.Book;
-import m323sq2b.model.Library;
+import m323.model.Book;
+import m323.model.Library;
 
 /**
  * Ausfuehrendes Programm des Projektes
@@ -28,26 +28,26 @@ public class Programm {
 		System.out.println(libService.getOverallAverageBookSells());
 
 		Book buchMitWenigKopien = libService.getLeastSellingBook();
-		System.out.print("\nBuch mit den wenigsten Verkäufen: ");
+		System.out.print("\nBuch mit den wenigsten Verkï¿½ufen: ");
 		System.out.println(buchMitWenigKopien.getTitle() + " (" + buchMitWenigKopien.getSoldCopies() + " Mio)");
 
 		Book buchMitVielKopien = libService.getMostSellingBook();
-		System.out.print("\nBuch mit den meisten Verkäufen: ");
+		System.out.print("\nBuch mit den meisten Verkï¿½ufen: ");
 		System.out.println(buchMitVielKopien.getTitle() + " (" + buchMitVielKopien.getSoldCopies() + " Mio)");
 
-		System.out.print("\nAnzahl Verkäufe von J. K. Rowling: ");
+		System.out.print("\nAnzahl Verkï¿½ufe von J. K. Rowling: ");
 		System.out.println(libService.getBookSellsForAuthor("J. K. Rowling"));
 
-		System.out.println("\nAnzahl Verkäufe zwischen den Jahren 1990 und 2000:");
+		System.out.println("\nAnzahl Verkï¿½ufe zwischen den Jahren 1990 und 2000:");
 		libService.getSellsBetweenYears(1990, 2000).forEach(b -> {
 			System.out.println("- " + b.getTitle() + " (" + b.getSoldCopies() + " Mio) ");
 		});
 
 		Book aeltestesBuch = libService.getOldestBook();
-		System.out.print("\nDas älteste Buch: ");
+		System.out.print("\nDas ï¿½lteste Buch: ");
 		System.out.println(aeltestesBuch.getTitle() + " (" + aeltestesBuch.getReleaseYear() + ")");
 
-		System.out.print("\nLetzte Veröffentlichung: ");
+		System.out.print("\nLetzte Verï¿½ffentlichung: ");
 		System.out.println(libService.getLatestReleaseYear());
 	}
 }

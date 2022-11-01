@@ -1,9 +1,9 @@
-package m323sq2b;
+package m323;
 
 import java.util.List;
 import java.util.stream.Collectors;
 
-import m323sq2b.model.Book;
+import m323.model.Book;
 
 /**
  * Diese Klasse standardisiert die Zugriffe auf die Bibliothek via
@@ -21,89 +21,89 @@ public class LibraryService {
 
 	/**
 	 * Diese Methode erlaubt den direkten Zugriff auf die im Service registrierten
-	 * Bücher.
+	 * Bï¿½cher.
 	 * 
-	 * @return Liste mit Büchern
+	 * @return Liste mit Bï¿½chern
 	 */
 	public List<Book> getBooks() {
 		return books;
 	}
 
 	/**
-	 * Diese Methode zählt die Bücher in der Bibliothek und gibt den entsprechenden
-	 * Wert zurück.
+	 * Diese Methode zï¿½hlt die Bï¿½cher in der Bibliothek und gibt den entsprechenden
+	 * Wert zurï¿½ck.
 	 * 
-	 * @return Anzahl Bücher in der Bibliothek
+	 * @return Anzahl Bï¿½cher in der Bibliothek
 	 */
 	public long getBookCount() {
 		return books.stream().count();
 	}
 
 	/**
-	 * Diese Methode durchsucht die Bibliothek nach Büchern die nach einem gewissen
-	 * Jahr veröffentlicht wurden.
+	 * Diese Methode durchsucht die Bibliothek nach Bï¿½chern die nach einem gewissen
+	 * Jahr verï¿½ffentlicht wurden.
 	 * 
-	 * @param year Das mindest Jahr der Veröffentlichung
-	 * @return Anzahl der veröffentlichten Bücher
+	 * @param year Das mindest Jahr der Verï¿½ffentlichung
+	 * @return Anzahl der verï¿½ffentlichten Bï¿½cher
 	 */
 	public long getBooksAfterYear(int year) {
 		return books.stream().filter(b -> b.getReleaseYear() >= year).count();
 	}
 
 	/**
-	 * Diese Methode gibt die Gesamtzahl der verkauften Bücher der Bibliothek
-	 * zurück.
+	 * Diese Methode gibt die Gesamtzahl der verkauften Bï¿½cher der Bibliothek
+	 * zurï¿½ck.
 	 * 
-	 * @return Anzahl verkaufter Bücher
+	 * @return Anzahl verkaufter Bï¿½cher
 	 */
 	public int getOverallBookSells() {
 		return books.stream().mapToInt(b -> b.getSoldCopies()).sum();
 	}
 
 	/**
-	 * Diese Methode liefert die durchschnittliche Anzahl verkaufter Bücher zurück.
+	 * Diese Methode liefert die durchschnittliche Anzahl verkaufter Bï¿½cher zurï¿½ck.
 	 * 
-	 * @return Durchschnittszahl der Verkäufe
+	 * @return Durchschnittszahl der Verkï¿½ufe
 	 */
 	public double getOverallAverageBookSells() {
 		return books.stream().mapToInt(b -> b.getSoldCopies()).average().getAsDouble();
 	}
 
 	/**
-	 * Gibt das Buch mit den wenigsten Verkäufen zurück.
+	 * Gibt das Buch mit den wenigsten Verkï¿½ufen zurï¿½ck.
 	 * 
-	 * @return Buch mit den wenigsten Verkäufen
+	 * @return Buch mit den wenigsten Verkï¿½ufen
 	 */
 	public Book getLeastSellingBook() {
 		return books.stream().reduce((b1, b2) -> b1.getSoldCopies() < b2.getSoldCopies() ? b1 : b2).get();
 	}
 
 	/**
-	 * Gibt das Buch mit den meisten Verkäufen zurück.
+	 * Gibt das Buch mit den meisten Verkï¿½ufen zurï¿½ck.
 	 * 
-	 * @return Buch mit den meisten Verkäufen
+	 * @return Buch mit den meisten Verkï¿½ufen
 	 */
 	public Book getMostSellingBook() {
 		return books.stream().reduce((b1, b2) -> b1.getSoldCopies() > b2.getSoldCopies() ? b1 : b2).get();
 	}
 
 	/**
-	 * Gibt die Anzahl Verkäufe für einen bestimmten Author zurück.
+	 * Gibt die Anzahl Verkï¿½ufe fï¿½r einen bestimmten Author zurï¿½ck.
 	 * 
-	 * @param author Auther dessen Verkäufe aufsummiert werden sollen.
-	 * @return Anzahl Verkäufe insgesamt des Authors
+	 * @param author Auther dessen Verkï¿½ufe aufsummiert werden sollen.
+	 * @return Anzahl Verkï¿½ufe insgesamt des Authors
 	 */
 	public int getBookSellsForAuthor(String author) {
 		return books.stream().filter(b -> b.getAuthor().equals(author)).mapToInt(b -> b.getSoldCopies()).sum();
 	}
 
 	/**
-	 * Gibt alle Bücher aus welche zwischen zwei angegebenen Jahreszahlen verkauft
+	 * Gibt alle Bï¿½cher aus welche zwischen zwei angegebenen Jahreszahlen verkauft
 	 * wurden.
 	 * 
-	 * @param minYear Untergrenze der Jahre der Veröffentlichung
-	 * @param maxYear Obergrenze der Jahre der Veröffentlichung
-	 * @return Liste mit Büchern
+	 * @param minYear Untergrenze der Jahre der Verï¿½ffentlichung
+	 * @param maxYear Obergrenze der Jahre der Verï¿½ffentlichung
+	 * @return Liste mit Bï¿½chern
 	 */
 	public List<Book> getSellsBetweenYears(int minYear, int maxYear) {
 		return books.stream().filter(b -> b.getReleaseYear() > minYear && b.getReleaseYear() < maxYear)
@@ -111,20 +111,20 @@ public class LibraryService {
 	}
 
 	/**
-	 * Diese Methode durchsucht die Bibliothek nach dem ältesten Buch und gibt
-	 * dieses zurück
+	 * Diese Methode durchsucht die Bibliothek nach dem ï¿½ltesten Buch und gibt
+	 * dieses zurï¿½ck
 	 * 
-	 * @return Ältestes Buch der Bibliothek
+	 * @return ï¿½ltestes Buch der Bibliothek
 	 */
 	public Book getOldestBook() {
 		return books.stream().reduce((b1, b2) -> b1.getReleaseYear() < b2.getReleaseYear() ? b1 : b2).get();
 	}
 
 	/**
-	 * Diese Methode sucht nach dem aktuellsten Veröffentlichungsjahr und gibt
-	 * dieses zurück.
+	 * Diese Methode sucht nach dem aktuellsten Verï¿½ffentlichungsjahr und gibt
+	 * dieses zurï¿½ck.
 	 * 
-	 * @return Jahr der aktuellsten Veröffentlichung.
+	 * @return Jahr der aktuellsten Verï¿½ffentlichung.
 	 */
 	public int getLatestReleaseYear() {
 		return books.stream().mapToInt(b -> b.getReleaseYear()).max().getAsInt();
