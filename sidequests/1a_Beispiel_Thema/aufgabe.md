@@ -1,36 +1,50 @@
 # SQ1A - Titel
 
-## Zeit
+## Zeit - x+y+z Minuten
 
-* 45 Minuten
+* x Minuten Einführung
+* y Minuten Bearbeitung des Auftrags
+* z Minuten Besprechung
 
 ## Lernart bzw. Sozialform
 
-* Partnerarbeit
+* Einzel- / Partner- / Gruppenarbeit / etc.
 
 ## HANOKs
 
+* HANOK-Beschreibung 1
+* HANOK-Beschreibung 2
+* HANOK-Beschreibung 3
+
 ## Einführung LP in das Basiswissen
 
-## Literatur zum Thema
+### Weitere Literatur zum Thema
 
-1. Praehofer "Funktionale Programmierung" Kapitel
+* Buch + Kapitelangabe (wenn vorhanden)
+* Link
+
+(bitte priorisieren und auf wesentliches beschränken)
 
 ## Ausgangslage
 
 ## Ziele / erwartete Lernergebnisse
 
+* Du kannst / kennst / etc.
+
 ## Auftrag
 
 ## Wissens-Check
 
-* Was ist 1+1? <!-- 2 -->
+* Was ist 1+1? <!-- Lösung: 2 -->
+
+<!-- dient der abschliessenden Zusammenfassung bzw. selbstständigen Evaluation durch die Lernenden -->
 
 ## Evaluation Lernende
 
-Peer-to-Peer Austausch zwischen den Lernenden (z.B. Tischnachbarn oder in Kleingruppen) 
+Peer-to-Peer Austausch zwischen einzelnen Lernenden (od. ähnlich)
 
 ## Benötigte Software
 
-aktuelles Eclipse + JDK17 + Zeal
-
+* Software 1
+* Software 2
+* usw.
