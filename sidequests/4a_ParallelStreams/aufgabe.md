@@ -72,12 +72,14 @@ Erstelle eine neue Java-Klasse `Block4_Parallel` mit einer `public static void m
 1. Erstelle einen Array *zahlen* mit den Zahlen von 0 bis 10^9 (siehe Javadoc für die Klasse *IntStream*)
 2. Erstelle eine Variable *cal0* mit dem aktuellen Zeitstempel (z.B. als Instanz der *Calendar*-Klasse)
 3. Streame den *zahlen*-Array, filtere die geraden Zahlen und zähle die Anzahl in einer Anweisung (Hinweis: nutze `IntStream.of(zahlen)` zum streamen).
-2. Erstelle eine Variable *cal1* mit dem aktuellen Zeitstempel (z.B. als Instanz der *Calendar*-Klasse). Die `getTimeMillis()`-Funktion der *Calendar*-Klasse gibt die Millisekunden zurück. Damit kannst Du die Zeitdifferenz von *cal0* und *cal1* berechnen und auf der Konsole ausgeben.
-2. Setze *cal0* auf den aktuellen Zeitstempel.
-2. Streame den *zahlen*-Array wie oben, dann **parallelisiere** diesen Stream. Darin filterst du die geraden Zahlen und zählst die Anzahl in einer Anweisung.
-2. Setze *cal1* auf den aktuellen Zeitstempel und berechne die Zeitdifferenz von *cal0* und *cal1* für die parallele Bearbeitung. Was stellst Du fest?
-
-
+4. Erstelle eine Variable *cal1* mit dem aktuellen Zeitstempel (z.B. als Instanz der *Calendar*-Klasse). Die `getTimeMillis()`-Funktion der *Calendar*-Klasse gibt die Millisekunden zurück. Damit kannst Du die Zeitdifferenz von *cal0* und *cal1* berechnen und auf der Konsole ausgeben.
+5. Setze *cal0* auf den aktuellen Zeitstempel.
+6. Streame den *zahlen*-Array wie oben, dann **parallelisiere** diesen Stream. Darin filterst du die geraden Zahlen und zählst die Anzahl in einer Anweisung.
+7. Setze *cal1* auf den aktuellen Zeitstempel und berechne die Zeitdifferenz von *cal0* und *cal1* für die parallele Bearbeitung. Was stellst Du fest?
+8. Fülle den Array mit Zufallszahlen.
+9. Vergleiche die Zeit zum sequentiellen Sortieren mit dem Zeitbedarf für parallelisiertes Sortieren.
+10. Starte dein java-Programm mehrfach, und interpretiere deine Beobachtungen.
+11. Setze das gleiche um mit der Arrays.parallelSort-Funktion.
 
 ## Wissens-Check
 
@@ -113,7 +115,7 @@ System.out.println("parallel processing time: "+tDelta+" ms");
 
 ## Evaluation Lernende
 
-Peer-to-Peer Austausch zwischen den Lernenden (z.B. Tischnachbarn oder in Kleingruppen) 
+Peer-to-Peer Austausch zwischen den Lernenden (z.B. Tischnachbarn oder in Kleingruppen)
 
 ## Benötigte Software
 
