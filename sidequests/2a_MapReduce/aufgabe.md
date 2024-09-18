@@ -27,7 +27,7 @@ Lernziele:
 ## Einführung LP in das Basiswissen
 
 * Arbeiten mit komplexen Objekten bei Streams (Projekt im Unterrichtsmaterial als Orientierung)
-* Elementare Terminal-Operationen kurz vorstellen:
+* Elementare Reducer- bzw. Terminal-Operationen kurz vorstellen:
   * count
   * sum
   * min
@@ -146,7 +146,7 @@ Erweitere dein Programm soweit, dass bei den folgenden Anforderungen die Auswert
 
 ## Evaluation Lernende
 
-Peer-to-Peer Austausch zwischen den Lernenden (z.B. Tischnachbarn oder in Kleingruppen) 
+Peer-to-Peer Austausch zwischen den Lernenden (z.B. Tischnachbarn oder in Kleingruppen)
 
 ## Benötigte Software
 
