@@ -13,9 +13,9 @@ Studiert die angegebenen Quellen zum Thema **pure function** und beantwortet die
 
 <table border="1">
 <tr><th>Funktion bzw. Methode</th><th>pure (ja/nein)</th><th>URL</th></tr>
-<tr><td>Replace-Funktion der String-Klasse</td><td></td><td><a href="https://docs.oracle.com/en/java/javase/17/docs/api/java.base/java/lang/String.html#replace(char,char)">https://docs.oracle.com/en/java/javase/17/docs/api/java.base/java/lang/String.html#replace(char,char)</a></td></tr>
-<tr><td>Remove-Methode des List-Interface</td><td></td><td><a href="https://docs.oracle.com/en/java/javase/17/docs/api/java.base/java/util/List.html#remove(java.lang.Object)">https://docs.oracle.com/en/java/javase/17/docs/api/java.base/java/util/List.html#remove(java.lang.Object)</a></td></tr>
-<tr><td>Sort-Methode des List-Interfaces</td><td></td><td><a href="https://docs.oracle.com/en/java/javase/17/docs/api/java.base/java/util/List.html#sort(java.util.Comparator)">https://docs.oracle.com/en/java/javase/17/docs/api/java.base/java/util/List.html#sort(java.util.Comparator)</a></td></tr>
+<tr><td>Replace-Funktion der String-Klasse</td><td>nein, das String-Objekt wird verändert</td><td><a href="https://docs.oracle.com/en/java/javase/17/docs/api/java.base/java/lang/String.html#replace(char,char)">https://docs.oracle.com/en/java/javase/17/docs/api/java.base/java/lang/String.html#replace(char,char)</a></td></tr>
+<tr><td>Remove-Methode des List-Interface</td><td>nein, die Liste wird verändert</td><td><a href="https://docs.oracle.com/en/java/javase/17/docs/api/java.base/java/util/List.html#remove(java.lang.Object)">https://docs.oracle.com/en/java/javase/17/docs/api/java.base/java/util/List.html#remove(java.lang.Object)</a></td></tr>
+<tr><td>Sort-Methode des List-Interfaces</td><td>ja, die ursprüngliche Liste bleibt erhalten</td><td><a href="https://docs.oracle.com/en/java/javase/17/docs/api/java.base/java/util/List.html#sort(java.util.Comparator)">https://docs.oracle.com/en/java/javase/17/docs/api/java.base/java/util/List.html#sort(java.util.Comparator)</a></td></tr>
 </table>
 
 1. Welche Funktionen der Streaming-API sind *reine Funktionen*?
